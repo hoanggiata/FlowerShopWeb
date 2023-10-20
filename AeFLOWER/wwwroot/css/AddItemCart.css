@@ -1,0 +1,124 @@
+﻿.buttons {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    display: flex;
+}
+
+.cart-button {
+    position: relative;
+    outline: 0;
+    background-color: var(--pink-color);
+    color: #fff;
+    border: none;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0.7rem;
+    line-height: 0px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top:1rem;
+    font-weight:bold;
+    font-size:1.5rem;
+}
+
+    .cart-button:focus {
+        outline: none !important
+    }
+
+    .cart-button .fa-shopping-cart {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: -20%;
+        font-size: 1.8em;
+        transform: translate(-50%, -50%)
+    }
+
+    .cart-button .fa-square {
+        position: absolute;
+        z-index: 1;
+        top: -20%;
+        left: 53%;
+        font-size: 0.8em;
+        transform: translate(-50%, -50%)
+    }
+
+    .cart-button span {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        color: #fff;
+        transform: translate(-50%, -50%)
+    }
+
+        .cart-button span.added {
+            opacity: 0
+        }
+
+    .cart-button.clicked .fa-shopping-cart {
+        animation: cart 2s ease-in forwards
+    }
+
+    .cart-button.clicked .fa-square {
+        animation: box 2s ease-in forwards
+    }
+
+    .cart-button.clicked span.add-to-cart {
+        animation: addcart 2s ease-in forwards
+    }
+
+    .cart-button.clicked span.added {
+        animation: added 2s ease-in forwards
+    }
+
+@keyframes cart {
+    0% {
+        left: -10%
+    }
+
+    40%, 60% {
+        left: 50%
+    }
+
+    100% {
+        left: 110%
+    }
+}
+
+@keyframes box {
+    0%, 40% {
+        top: -20%
+    }
+
+    60% {
+        top: 36%;
+        left: 53%
+    }
+
+    100% {
+        top: 40%;
+        left: 112%
+    }
+}
+
+@keyframes addcart {
+    0%, 30% {
+        opacity: 1
+    }
+
+    30%, 100% {
+        opacity: 0
+    }
+}
+
+@keyframes added {
+    0%, 80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}

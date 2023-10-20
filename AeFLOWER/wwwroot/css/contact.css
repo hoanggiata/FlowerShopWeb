@@ -1,0 +1,331 @@
+/* TABS */
+.tab-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.tabs {
+  display: flex;
+}
+
+.tab-item {
+  padding: 1rem;
+  width: 33.33333333%;
+  font-size: var(--subtitle-size);
+  font-weight: 500;
+  text-align: center;
+  background-color: var(--gray-color);
+  color: var(--white-color);
+  opacity: .5;
+  border-radius: 20px 20px 0 0;
+  box-shadow:var(--box-shadow-2);
+  cursor: pointer;
+}
+
+.tab-item:hover {
+  background-color: var(--blue-color);
+  opacity: .8;
+}
+
+.tab-active {
+  background-color: var(--blue-color);
+  opacity: 1;
+}
+
+.tab-active:hover {
+  background-color: var(--blue-color);
+  opacity: 1;
+}
+
+.pane-item {
+  padding: 3rem;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--radius-1);
+}
+
+.pane-avatar {
+  padding: 1rem;
+  text-align: center;
+  
+}
+
+.pane-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: var(--radius-circle);
+  box-shadow:var(--box-shadow);
+}
+
+.pane-title {
+  padding: .3rem 0;
+  font-size: var(--subtitle-size);
+  font-weight: 500;
+  text-align: center;
+  color: var(--blue-color);
+}
+
+.pane-text {
+  padding: 1rem 0;
+  font-size:var(--subtitle-size);
+  opacity: .8;
+}
+
+.show-pane {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* CONTACT FORM */
+.contact-form {
+  padding-left: 2rem;
+  border-radius: var(--radius-1);
+}
+
+.input-container {
+  position: relative;
+  margin: 2.5rem 0;
+}      
+
+.input {
+  outline: none;
+  padding: 2rem;
+  width: 100%;
+  font-size: var(--subtitle-size);
+  border: 1px solid var(--smoke-color);
+  border-radius: var(--radius-1);
+  transition: var(--transition);
+}
+
+::placeholder {
+  font-size: var(--subtitle-size);
+  color: var(--smoke-color);
+}
+
+.input-container .form-label {
+  position: absolute;
+  top: -1rem;
+  left: 1.5rem;
+  padding: 0 .5rem;
+  font-size: var(--subtitle-size);
+  font-weight: bold;
+  color: var(--smoke-color);
+  background-color: var(--white-color);
+  transition: var(--transition);
+}
+
+.input:focus {
+  border: 1px solid var(--blue-color);
+}
+
+.input:focus + .form-label {
+  color: var(--blue-color);
+}
+
+.input-btn {
+  text-align: right;
+}
+
+.contact-btn {
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+
+
+
+
+
+
+/* VALIDATE */
+.error-icon {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: red;
+}
+
+label.error {
+  display: block;
+  padding: .5rem 1rem;
+  font-size: 1.5rem;
+  color: red;
+}
+
+input.error:not(:focus) {
+  border: 1px solid red;
+}
+
+input.error:not(:focus) ~ .form-label {
+  color: red;
+}
+
+input.error:focus {
+  border: 1px solid red;
+}
+
+input.error:focus ~ .form-label {
+  color: red;
+}
+
+input.valid {
+  border: 1px solid var(--blue-color);
+}
+
+input.valid:not(:focus) ~ .form-label {
+  color: var(--blue-color);
+}
+
+input.valid:focus {
+  border: 1px solid var(--blue-color);
+}
+
+input.valid:focus ~ .form-label {
+  color: var(--blue-color);
+}
+
+input.error ~ .error-icon {
+  display: block;
+}
+
+
+
+
+/* textarea */
+textarea.error:not(:focus) {
+  border: 1px solid red;
+}
+
+textarea.error:not(:focus) ~ .form-label {
+  color: red;
+}
+
+textarea.error:focus {
+  border: 1px solid red;
+}
+
+textarea.error:focus ~ .form-label {
+  color: red;
+}
+
+textarea.valid {
+  border: 1px solid var(--blue-color);
+}
+
+textarea.valid:not(:focus) ~ .form-label {
+  color: var(--blue-color);
+}
+
+textarea.valid:focus {
+  border: 1px solid var(--blue-color);
+}
+
+textarea.valid:focus ~ .form-label {
+  color: var(--blue-color);
+}
+
+textarea.error ~ .error-icon {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* MAP */
+.map {
+  padding-left: 2rem;
+}
+
+.map iframe{
+  width: 100%;
+  border-radius: var(--radius-1);
+  box-shadow: var(--box-shadow);
+}
+
+
+
+
+
+
+
+
+
+
+/* BRAND INFO */
+
+.brand {
+  padding: 3rem 0;
+}
+
+.brand-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: rgb(241, 132, 148);
+}
+
+.brand-info {
+  padding: 2.5rem 0;
+}
+
+.brand-text {
+  padding: .5rem;
+  font-size: 1.5rem;
+  color: var(--white-color);
+
+}
+
+.brand-text span {
+  color: rgb(241, 132, 148);
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 576px) {
+  .contact-form,
+  .map {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .pane-item {
+    padding: 2rem;
+  }
+}

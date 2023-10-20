@@ -1,0 +1,324 @@
+﻿@using Azure.Core;
+@model AeFLOWER.Models.Product;
+@using Microsoft.AspNetCore.Http.Extensions;
+
+@{
+    ViewData["Title"] = "ProductDetail";
+    <link href="@Url.Content("~/css/base.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/grid.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/AddItemCart.css")" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/partial/book.css")">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/product-detail.css")">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/jqwidget/jqx.base.css")">
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/StarRating.css")">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- SLICK JS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="/css/Comment.css" />
+    <!-- COMMENTS -->
+
+    List<Product> products = new List<Product>();
+    Product temp = new Product();
+    products = temp.GetProductExById(Model.IdProduct);
+    //string content = File.ReadAllText(@"C:\Users\hoanggia\Desktop\TaiLieuHTML-CSS\DoAnWebNangCao\BookStoreWeb\wwwroot\Text\DesBook.txt");
+
+}
+<div class="section top-part">
+
+    <div class="container section">
+
+        <div class="row">
+
+            <!-- PRODUCT IMAGE -->
+            <div class="col l-5 m-5 c-12">
+
+                <div class="slider product-detail-slider-top single-product-slider">
+                    @{
+                        foreach (var item in ViewBag.images)
+                        {
+                            <div class="single-product-img">
+                                @{
+                                    var url = "/IMG/products/" + Model.IdCate.ToString() + "/" + Model.IdProduct.ToString() + "/" + item;
+                                }
+                                <img src="@url" alt="Image" />
+                            </div>
+                        }
+                    }
+
+                </div>
+
+                <div class="slider product-detail-slider-bottom navs-product-slider">
+                    @{
+                        foreach (var item in ViewBag.images)
+                        {
+                            <div class="navs-product-img">
+                                @{
+                                    var url = "/IMG/products/" + Model.IdCate.ToString() + "/" + Model.IdProduct.ToString() + "/" + item;
+                                }
+                                <img src="@url" alt="Image" />
+                                <div class="navs-product-img-bg"></div>
+                            </div>
+                        }
+                    }
+
+                </div>
+
+            </div>
+
+            <!-- PRODUCT INFO -->
+            <div class="col l-7 m-7 c-12">
+                <div class="info-header">
+                    <h2 class="book-name"></h2>
+                    <div class="rate-star">
+                        <div class="book-reviews" style="cursor: pointer;">
+                            @{
+                                for (int i = 1; i <= 5; i++)
+                                {
+                                    if (i <= ViewBag.TotalRating)
+                                    {
+                                        <span class="fa fa-star checked" style="color:orange;"></span>
+                                    }
+                                    else
+                                    {
+                                        <span class="fa fa-star"></span>
+                                    }
+                                }
+
+                            }
+
+                        </div>
+                        <p class="num-rate">@Model.StarSum </p>
+                        <p class="num-sell">Đã bán #</p>
+                    </div>
+                </div>
+                <div class="info-body">
+                    <div class="price">
+                        <div class="book-info">
+                            <p class="book-price" id="real-price">@Model.Newcash</p>
+                            <p class="old-price"><del>@Model.Oldcash</del></p>
+                        </div>
+                        <div class="view-more">
+                            <a href="#">Miễn phí vận chuyển <i class="far fa-question-circle"></i></a>
+                        </div>
+                    </div>
+                    <div class="num-prod">
+                        <p>Số lượng:</p>
+                        <div class="buttons_added">
+                            <input class="minus is-form" type="button" value="-">
+                            <input aria-label="quantity" class="quantity-item" id="input-quantity" max="20" min="1" name="" type="number" value="1">
+                            <input class="plus is-form" type="button" value="+">
+                        </div>
+                        <p>@Model.Quantity sản phẩm có sẵn</p>
+                    </div>
+                </div>
+                @{
+                    if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="info-footer">
+                            <div class="row">
+                                <div class="col l-6 m-6 c-12" onclick="AddItem()">
+                                    <div class="buttons"> <button class="cart-button"> <span class="add-to-cart">Add to cart</span> <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i class="fa fa-square"></i> </button> </div>
+                                </div>
+
+                                <div class="col l-6 m-6 c-12">
+                                    <p class="buy btn">Mua ngay</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    if (!User.Identity.IsAuthenticated)
+                    {
+                        <div class="info-footer">
+                            <div class="row">
+                                <div class="col l-6 m-6 c-12">
+                                    <a class="buy btn" href="@Url.Action("Index","LoginReg")">Mua ngay</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+
+            </div>
+
+        </div>
+
+        <!-- PRODUCT INFO DETAIL -->
+        <div class="row">
+            <div class="col l-12 m-12 c-12">
+                <!-- CODE HERE -->
+                <div class="detail-content">
+                    <div class="detail-prod">
+                        <h2 class="title-prod">Chi tiết sản phẩm</h2>
+                        <table>
+                            <tr>
+                                <td>Hoa Chính</td>
+                                <td>@Model.MainFlower</td>
+                            </tr>
+                            <tr>
+                                <td>Hoa Phụ</td>
+                                <td>@Model.SubFlower</td>
+                            </tr>
+                            <tr>
+                                <td>Kích thước</td>
+                                <td>@Model.Size</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="desc-prod">
+                        <h2 class="title-prod">Mô tả sản phẩm</h2>
+                        <p>
+                            <strong>@Model.NameProduct</strong><br>
+                            @Model.Desproduct;
+                            <br>
+                            Giá sản phẩm trên GoBook đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển,
+                            phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- RECOMMEND -->
+<div id="recommend">
+
+    <div class="container">
+        <section id="newest">
+
+            <div class="container">
+                <div class="sub-info" style="text-align: left;">
+                    <p class="sub-title">Sản phẩm tương tự</p>
+                    <!-- <p class="sub-text">Lorem ipsum dolor sit amet !</p> -->
+                </div>
+            </div>
+
+            <div class="container newest slider newest-slider">
+
+                @{
+                    foreach (var item in products)
+                    {
+                        <div class="book">
+                            <a asp-action="ProductDetail" asp-controller="Product" asp-route-id="@item.IdProduct" asp-route-cate="@item.IdCate">
+                                <div class="book-top">
+                                    <img src="@item.Imageurl" class="book-img">
+                                    @* <img src="../../img/source/freeship.png" alt="" class="freeship-tag">*@
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">@item.NameProduct</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">@item.Newcash</p>
+                                    
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    }
+                }
+            </div>
+
+        </section>
+    </div>
+
+</div>
+
+@*<!-- COMMENTS -->
+<div class="comment-section">
+    <div class="post-comment">
+        @foreach (var item in ViewBag.Query)
+        {
+            <div class="list">
+                <div class="user">
+                    <div class="user-image"><img src="~/IMG/source/avatar/User.jpg" alt="Avatar" /></div>
+                    <div class="user-meta">
+                        <div class="user-name" style="margin-bottom:0.3em;">@item.accName.Username</div>
+                        <span>
+                            @{
+                                for (int i = 1; i < 6; i++)
+                                {
+                                    if (i <= item.cmt.StarRating)
+                                    {
+                                        <span class="fa fa-star checked" style="color:orange;"></span>
+                                    }
+                                    else
+                                    {
+                                        <span class="fa fa-star"></span>
+                                    }
+                                }
+
+                            }
+                        </span>
+                        <div class="time-post">@item.cmt.CommentTime</div>
+                    </div>
+                </div>
+                <div class="comment-post">@item.cmt.CommentContent</div>
+            </div>
+        }
+    </div>
+    @{
+        if (User.Identity.IsAuthenticated)
+        {
+            <div class="comment-box">
+                <div class="user">
+                    <div class="user-image"><img src="~/IMG/source/avatar/User.jpg" alt="Avatar" /></div>
+                    <div class="user-name">Add a comment</div>
+                </div>
+                <form id="comment-form">
+                    <div id="full-stars-example">
+                        <div class="rating-group">
+                            <input class="rating__input rating__input--none" name="rating" id="rating-none" value="0" onclick="AddStar()" type="radio">
+                            <label aria-label="No rating" class="rating__label" for="rating-none"><i class="rating__icon rating__icon--none fa fa-ban"></i></label>
+                            <label aria-label="1 star" class="rating__label" for="rating-1"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                            <input class="rating__input" name="rating" id="rating-1" value="1" onclick="AddStar()" type="radio">
+                            <label aria-label="2 stars" class="rating__label" for="rating-2"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                            <input class="rating__input" name="rating" id="rating-2" value="2" onclick="AddStar()" type="radio">
+                            <label aria-label="3 stars" class="rating__label" for="rating-3"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                            <input class="rating__input" name="rating" id="rating-3" value="3" onclick="AddStar()" type="radio" checked>
+                            <label aria-label="4 stars" class="rating__label" for="rating-4"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                            <input class="rating__input" name="rating" id="rating-4" value="4" onclick="AddStar()" type="radio">
+                            <label aria-label="5 stars" class="rating__label" for="rating-5"><i class="rating__icon rating__icon--star fa fa-star"></i></label>
+                            <input class="rating__input" name="rating" id="rating-5" value="5" onclick="AddStar()" type="radio">
+                        </div>
+                    </div>
+                    <textarea name="comment_content" id="cmt-content" placeholder="Write your thought about this book"></textarea>
+                    <button class="comment_submit" type="button" onclick="PostCMT()">Submit</button>
+                </form>
+            </div>
+        }
+        if (!User.Identity.IsAuthenticated)
+        {
+            <div class="div-warning">
+                <a class="login-warning" href="@Url.Action("Index","LoginReg")">Vui lòng đăng nhập để bình luận</a>
+            </div>
+        }
+    }
+</div>
+*@
+
+<a href="#top" class="scroll-top">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<!-- JQUERY  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- SLICK JS -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- COMMENTS -->
+<script src="~/js/comments/js/jquery-comments.js"></script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.textcomplete/1.8.0/jquery.textcomplete.js"></script>
+<script src="~/js/comments/data/comments-data.js"></script>
+
+<script src="~/js/app.js"></script>
+<script src="~/js/slider.js"></script>

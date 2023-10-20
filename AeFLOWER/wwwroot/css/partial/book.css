@@ -1,0 +1,87 @@
+/* BOOK */
+.book {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.book-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 13rem;
+  height: 18rem;
+}
+
+.book:hover {
+  transform: scale(1.02);
+}
+
+.slider .book-top {
+  margin-left: 1rem;
+}
+.book-img {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-1);
+  transition: var(--transition);
+  box-shadow: var(--box-shadow-2);
+}
+
+
+.book-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: .5rem;
+  text-align: left; 
+}
+
+.book-info {
+  display: flex;
+  align-items: center;
+}
+
+.book-title {
+  padding-bottom: .5rem;
+  font-size: var(--text-size);
+  font-weight: 500;
+  color: var(--dark-color);
+}
+
+.book-reviews {
+  padding-bottom: .5rem;
+}
+
+.book-reviews i {
+  color: var(--star-color);
+}
+
+.book-price {
+  margin-right: 1rem;
+  font-size: var(--subtitle-size);
+  font-weight: bold;
+  color: var(--pink-color);
+}
+
+.sale-tag {
+  padding: .1rem .2rem;
+  font-size: var(--text-size);
+  font-weight: bold;
+  color: var(--pink-color);
+  border: 1px solid var(--pink-color);
+  border-radius: var(--radius);
+}
+
+.freeship-tag {
+  position: absolute;
+  bottom: 1rem;
+  left: -.5rem;
+  width: 8rem;
+
+}
+
+.book-3 .book-bottom{
+  align-items: center;
+}

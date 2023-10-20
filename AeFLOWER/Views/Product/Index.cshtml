@@ -1,0 +1,536 @@
+﻿@model dynamic
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@using X.PagedList.Mvc.Core.Fluent;
+@using X.PagedList.Web.Common;
+@{
+    ViewData["Title"] = "Sản phẩm";
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- SLICK JS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <link href="@Url.Content("~/css/base.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/grid.css")" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="@Url.Content("~/css/partial/book.css")">
+    <link rel="stylesheet" href="@Url.Content("~/css/partial/category.css")">
+    IPagedList<Product>? bookPages = ViewBag.OnePageOfProducts as IPagedList<Product>;
+}
+
+<!-- HOME -->
+<section id="home" class="section top-part">
+    <div class="container home">
+
+        <div class="slider home-slider">
+            <div class="slide">
+                <img src="~/IMG/source/banner/banner-1.jpg" alt="" class="home-img">
+            </div>
+            <div class="slide">
+                <img src="~/IMG/source/banner/banner-2.jpg" alt="" class="home-img">
+            </div>
+            <div class="slide">
+                <img src="~/IMG/source/banner/banner-3.jpg" alt="" class="home-img">
+            </div>
+            <div class="slide">
+                <img src="~/IMG/source/banner/banner-4.jpg" alt="" class="home-img">
+            </div>
+            <div class="slide">
+                <img src="~/IMG/source/banner/banner-5.jpg" alt="" class="home-img">
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- CODE HERE -->
+<!-- PRODUCT -->
+<section class="section" id="products">
+
+    <div class="container product">
+        <div class="row">
+            <!-- CATEGORY -->
+            <div class="col l-3 m-0 c-0">
+
+                <nav class="category">
+                    <h3 class="category-header">
+                        <i class="fas fa-list-ul"></i>
+                        Danh mục
+                    </h3>
+                    <ul class="category-list">
+                        @foreach (Category item in ViewBag.ListCate)
+                        {
+                                <li class="category-item @item.CssClass"><a asp-action="Index" asp-controller="Product" asp-route-page="1" asp-route-cate="@item.IdCategory" class="category-item-link">@item.NameCategory</a></li>
+                        }
+                    </ul>
+                </nav>
+
+            </div>
+
+            <!-- PRODUCTS -->
+            <div class="col l-9 m-12 c-12">
+
+                <div class="row">
+                    <!-- BOOK 1 -->
+                    @foreach (Product item in ViewBag.OnePageOfProducts)
+                    {
+                            <div class="col l-3 m-4 c-6">
+                                <div class="book">
+                                    <a asp-action="ProductDetail" asp-controller="Product" asp-route-id="@item.IdProduct" asp-route-cate="@item.IdCate">
+                                        <div class="book-top">
+                                            <img src="@item.Imageurl" class="book-img">
+                                        @*<img src="~/IMG/source/freeship.png" alt="" class="freeship-tag">*@
+                                        </div>
+                                        <div class="book-bottom">
+                                            <p class="book-title">@item.NameProduct</p>
+                                            <div class="book-reviews">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star-half-alt"></i>
+                                            </div>
+                                            <div class="book-info">
+                                                <p class="book-price">@item.Newcash</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                    }
+
+                    @* <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="/Views/pages/chi-tiet-san-pham/01-hai-mat-cua-gia-dinh.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/TL/TL01/book-01-1.png" class="book-img">
+                                    <img src="~/IMG/source/freeship.png" alt="" class="freeship-tag">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">Hai mặt của gia đình</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">70.800đ</p>
+                                        <div class="tag sale-tag">-28%</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOOK 2 -->
+                    <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="~/Views/pages/chi-tiet-san-pham/02-goc-khuat-cua-yeu-thuong.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/book-02-goc-khuat-cua-yeu-thuong/book-02-1.jpg" class="book-img">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">Góc khuất của yêu thương</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">66,600đ</p>
+                                        <div class="tag sale-tag">-32%</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOOK 3 -->
+                    <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="~/Views/pages/chi-tiet-san-pham/03-chu-nghia-toi-gian.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/book-03-chu-nghi-toi-gian/book-03-1.jpg" class="book-img">
+                                    <img src="~/IMG/source/freeship.png" alt="" class="freeship-tag">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">Chủ nghĩa tối giản</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">99.200đ</p>
+                                        <div class="tag sale-tag">-29%</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOOK 4 -->
+                    <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="~/Views/pages/chi-tiet-san-pham/04-chi-so-vuot-kho.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/book-04-chi-so-vuot-kho/book-04-1.jpg" class="book-img">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">AQ Chỉ số vượt khó</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">90.000đ</p>
+                                        <div class="tag sale-tag">-10%</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOOK 5 -->
+                    <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="~/Views/pages/chi-tiet-san-pham/05-ga-nghien-giay.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/book-05-ga-nghien-giay/book-05-1.jpg" class="book-img">
+                                    <img src="~/IMG/source/freeship.png" alt="" class="freeship-tag">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">Gã nghiện giày</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">119.600đ</p>
+                                        <div class="tag sale-tag">-25%</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOOK 6 -->
+                    <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="~/Views/pages/chi-tiet-san-pham/06-cang-ky-luat-cang-tu-do.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/book-06-cang-ky-luat-cang-tu-do/book-06-1.jpg" class="book-img">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">Càng kỹ luật càng tự do</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">74.200đ</p>
+                                        <div class="tag sale-tag">-32%</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOOK 7 -->
+                    <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="~/Views/pages/chi-tiet-san-pham/07-wabi-sabi.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/book-07-wabi-sabi/book-07-1.jpg" class="book-img">
+                                    <img src="~/IMG/source/freeship.png" alt="" class="freeship-tag">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">Wabi Sabi</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">79.200đ</p>
+                                        <div class="tag sale-tag">-20%</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOOK 8 -->
+                    <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="~/Views/pages/chi-tiet-san-pham/08-mat-phai.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/book-08-mat-phai/book-08-1.jpg" class="book-img">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">Mặt phải</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">115.000đ</p>
+                                        <!-- <div class="tag sale-tag">-10%</div> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOOK 9 -->
+                    <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="~/Views/pages/chi-tiet-san-pham/09-tat-ca-deu-la-chuyen-nho.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/book-09-tat-ca-deu-la-chuyen-nho/book-09-1.jpg" class="book-img">
+                                    <img src="~/IMG/source/freeship.png" alt="" class="freeship-tag">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">Tất cả đều là chuyện nhỏ</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">54.000đ</p>
+                                        <div class="tag sale-tag">-10%</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOOK 10 -->
+                    <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="~/Views/pages/chi-tiet-san-pham/10-minh-la-ca.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/book-10-minh-la-ca/book-10-1.jpg" class="book-img">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">Mình là cá, việc của mình là bơi</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">67.800đ</p>
+                                        <div class="tag sale-tag">-24%</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOOK 11 -->
+                    <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="~/Views/pages/chi-tiet-san-pham/11-nghe-thuat-kaize-tuyet-voi-cua-toyota.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/book-11-nghe-thuat-kaize/book-11-1.jpg" class="book-img">
+                                    <img src="~/IMG/source/freeship.png" alt="" class="freeship-tag">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">Nghệ thuật Kaize tuyệt vời của Toyota</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">97.500đ</p>
+                                        <div class="tag sale-tag">-22%</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- BOOK 12 -->
+                    <div class="col l-3 m-4 c-6">
+                        <div class="book">
+                            <a href="~/Views/pages/chi-tiet-san-pham/12-cuoc-cach-mang-cong-rom.html">
+                                <div class="book-top">
+                                    <img src="~/IMG/books/book-12-cuoc-cach-mang-cong-rom/book-12-1.jpg" class="book-img">
+                                </div>
+                                <div class="book-bottom">
+                                    <p class="book-title">Cuộc cách mạng cộng rơm</p>
+                                    <div class="book-reviews">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="book-info">
+                                        <p class="book-price">90.000đ</p>
+                                        <!-- <div class="tag sale-tag">-10%</div> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div> *@
+
+                </div>
+
+
+                <!-- PAGINATION -->
+                <div class="pagination">
+                    <ul class="pagi-list">
+                        <li>
+                            <a class="pagi-btn-prev prev"><i class="fas fa-chevron-left"></i></a>
+                        </li>
+                        @{
+                            for (int i = 1; i <= ViewBag.totalPage; i++)
+                            {
+                                if (i == ViewBag.CurrentPage)
+                                {
+                                                <li class="page-num active"><a asp-controller="Product" asp-action="Index" asp-route-page="@i" asp-route-cate="@ViewBag.GetCate">@i</a></li>
+                                }
+                                else
+                                {
+                                                <li class="page-num"><a asp-controller="Product" asp-action="Index" asp-route-page="@i" asp-route-cate="@ViewBag.GetCate">@i</a></li>
+                                }
+                            }
+                        }
+                        @*   <li class="page-num active"><a>1</a></li>
+                        <li class="page-num"><a>2</a></li>
+                        <li class="page-num"><a>3</a></li>
+                        <li class="page-num"><a>4</a></li>
+                        <li class="page-num"><a>5</a></li>
+                        <li class="page-num"><a>6</a></li>*@
+
+                        <li>
+                            <a class="pagi-btn-next next">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- SIDEBAR MENU FOR MB&TBL -->
+        <div class="mb-menu">
+            <input type="checkbox" class="key-sb" id="key-sb-menu" style="display: none;">
+            <label for="key-sb-menu" class="sidebar">
+                <h2>+</h2>
+            </label>
+            <label for="key-sb-menu" class="over-lay"></label>
+            <div class="menu-sidebar">
+                <label for="key-sb-menu" class="close-sb">
+                    <i class="fas fa-times"></i>
+                </label>
+                <div>
+                    <nav class="category">
+                        <h3 class="category-header">
+                            <i class="fas fa-list-ul"></i>
+                            Danh mục
+                        </h3>
+                        <ul class="category-list">
+                            <li class="category-item"><a href="#" class="category-item-link">Khoa học - Kỹ thuật</a></li>
+                            <li class="category-item"><a href="#" class="category-item-link">Trinh thám</a></li>
+                            <li class="category-item"><a href="#" class="category-item-link">Viễn tưởng</a></li>
+                            <li class="category-item active"><a asp-action="Index" asp-controller="Product" asp-route-cate="NT" class="category-item-link">Ngôn tình</a></li>
+                            <li class="category-item"><a asp-action="Index" asp-controller="Product" asp-route-cate="TL" class="category-item-link">Triết Lí</a></li>
+                            <li class="category-item"><a href="#" class="category-item-link">Học đường</a></li>
+                            <li class="category-item"><a href="#" class="category-item-link">Kinh dị</a></li>
+                            <li class="category-item"><a href="#" class="category-item-link">Nhân văn</a></li>
+                            <li class="category-item"><a href="#" class="category-item-link">Thiếu nhi</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- RECOMMEND -->
+<section id="newest" class="section">
+
+    <div class="container">
+        <div class="sub-info" style="text-align: left;">
+            <p class="sub-title">Sản phẩm tương tự</p>
+            <!-- <p class="sub-text">Lorem ipsum dolor sit amet !</p> -->
+        </div>
+    </div>
+
+    <div class="container newest slider newest-slider">
+        @foreach (Product item in ViewBag.RecommendBooks)
+        {
+                 <div class="book">
+                <a href="@Url.Action("ProductDetail","Product", new{id = item.IdProduct,cate = item.IdCate})">
+                    <div class="book-top">
+                        <img src="@item.Imageurl" class="book-img">
+                    </div>
+                    <div class="book-bottom">
+                        <p class="book-title">@item.NameProduct</p>
+                        <div class="book-reviews">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <div class="book-info">
+                            <p class="book-price">@item.Newcash</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+
+    </div>
+
+</section>
+
+
+
+<a href="#top" class="scroll-top">
+    <i class="fas fa-arrow-up"></i>
+</a>
+<!-- JQUERY  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- SLICK JS -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="~/js/app.js"></script>
+<script src="~/js/slider.js"></script>
+<script src="~/js/pagination.js"></script>
+
+

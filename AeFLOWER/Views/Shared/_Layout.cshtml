@@ -1,0 +1,150 @@
+﻿@using Microsoft.AspNetCore.Http.Extensions;
+@{
+    TempData["preUrl"] = Context.Request.GetDisplayUrl();
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+    <link href="@Url.Content("~/css/homepage.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/base.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/contact.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/partial/book.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/css/partial/blog.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/IMG/source/icon-logo.ico")" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- SLICK JS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <title>@ViewData["Title"]</title>
+</head>
+<body>
+    <!--Header-->
+    <header id="header" class="l-header">
+        <div class="header-top">
+            <div class="container header-content">
+
+                <div class="header-top-left">
+                    <p class="header-sale">
+                        <i class="fas fa-tag"></i> Giảm 15% cho mỗi đơn đặt hàng dịp giáng
+                        sinh !!!
+                    </p>
+                </div>
+
+                <div class="header-top-right">
+
+                    <div class="header-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="header-info">
+                            <p class="header-title">Địa điểm</p>
+                            <p class="header-text">828 Sư Vạn Hạnh, Phường 13, Quận 10, TP.HCM</p>
+                        </div>
+                    </div>
+
+                    <div class="header-time">
+                        <i class="fas fa-clock"></i>
+                        <div class="header-info">
+                            <p class="header-title">Giờ mở cửa</p>
+                            <p class="header-text">8.00am - 22.00pm</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <nav class="nav container">
+
+            <a href="@Url.Action("Index","Home")" class="nav-logo" style="max-width:36.5rem;">
+                <img src="~/IMG/source/test-logo-icon.png" alt="">
+                <span>Flower Shop</span>
+            </a>
+
+            <div class="nav-menu">
+
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="@Url.Action("Index","Home")" class="nav-link"><i class="fas fa-home"></i> Trang chủ</a></li>
+                    <li class="nav-item">
+                        <a href="@Url.Action("Index","Product",new {page = 1, cate = "cat01"})" class="nav-link">
+                            <i class="fas fa-shopping-cart"></i> Sản
+                            phẩm
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="@Url.Action("Index","News")" class="nav-link">
+                            <i class="fas fa-newspaper"></i> Bài
+                            viết
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="@Url.Action("Contact","Home")" class="nav-link"><i class="fas fa-phone-alt"></i> Liên hệ</a>
+                    </li>
+                    @{
+                        if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a href="@Url.Action("Index","Cart")" class="nav-link"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a>
+                            </li>
+                        }
+                    }
+                </ul>
+            </div>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <div class="dropdown nav-link">
+                    <a class="user-profile">@User.Identity.Name</a>
+                    <div class="dropdown-content">
+                        <a asp-controller="Profile" asp-action="Index">Profile</a>
+                        <a asp-controller="LoginReg" asp-action="Logout">LogOut</a>
+
+                    </div>
+                </div>
+            }
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <div class="dropdown nav-link" style="justify-content:space-between;">
+                    <a class="user-profile" style="color: rgb(128, 128, 128);" href="@Url.Action("Index","LoginReg",new{returnUrl = TempData["preUrl"].ToString()})">Đăng Nhập</a>
+                    <div class="dropdown-content">
+                        <a asp-controller="LoginReg" asp-action="ForgotPassword">Quên Mật Khẩu</a>
+                    </div>
+                </div>
+            }
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+
+
+        </nav>
+
+    </header>
+
+    <!--Body-->
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody();
+        </main>
+    </div>
+    <div class="content-warpper">
+        <partial name="_NewsLetter"></partial>
+    </div>
+    <!--Footer-->
+    <div class="content-wrapper">
+        @Html.Partial("_Footer")
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- JQUERY  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- SLICK JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="~/js/app.js"></script>
+    <script src="~/js/slider.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

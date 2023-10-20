@@ -1,0 +1,733 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AeFLOWER.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AeFLOWER.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-01-hai-mat-gia-dinh\\blog-01-1.png",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-01-hai-mat-gia-dinh\\blog-01-1.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-01-hai-mat-gia-dinh\\blog-01-2.png",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-01-hai-mat-gia-dinh\\blog-01-2.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-02-goc-khuat-cua-yeu-thuong\\blog-02-1.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-02-goc-khuat-cua-yeu-thuong\\blog-02-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-02-goc-khuat-cua-yeu-thuong\\blog-02-2.png",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-02-goc-khuat-cua-yeu-thuong\\blog-02-2.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-03-chu-nghia-toi-gian\\blog-03-1.png",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-03-chu-nghia-toi-gian\\blog-03-1.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-03-chu-nghia-toi-gian\\blog-03-2.png",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-03-chu-nghia-toi-gian\\blog-03-2.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-04-chi-so-vuot-kho\\blog-04-1.gif",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-04-chi-so-vuot-kho\\blog-04-1.gif"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-04-chi-so-vuot-kho\\blog-04-2.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-04-chi-so-vuot-kho\\blog-04-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-05-ga-nghien-giay\\blog-05-1.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-05-ga-nghien-giay\\blog-05-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-05-ga-nghien-giay\\blog-05-2.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-05-ga-nghien-giay\\blog-05-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-06-cang-ky-luat-cang-tu-do\\blog-06-1.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-06-cang-ky-luat-cang-tu-do\\blog-06-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-06-cang-ky-luat-cang-tu-do\\blog-06-2.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-06-cang-ky-luat-cang-tu-do\\blog-06-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-07-wabi-sabi\\blog-07-1.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-07-wabi-sabi\\blog-07-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-07-wabi-sabi\\blog-07-2.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-07-wabi-sabi\\blog-07-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-08-mat-phai\\blog-08-1.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-08-mat-phai\\blog-08-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-08-mat-phai\\blog-08-2.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-08-mat-phai\\blog-08-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-09-tat-ca-deu-la-chuyen-nho\\blog-09-1.png",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-09-tat-ca-deu-la-chuyen-nho\\blog-09-1.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-09-tat-ca-deu-la-chuyen-nho\\blog-09-2.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-09-tat-ca-deu-la-chuyen-nho\\blog-09-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-10-minh-la-ca\\blog-10-1.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-10-minh-la-ca\\blog-10-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-10-minh-la-ca\\blog-10-2.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-10-minh-la-ca\\blog-10-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-11-nghe-thuat-kaze\\blog-11-1.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-11-nghe-thuat-kaze\\blog-11-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-11-nghe-thuat-kaze\\blog-11-2.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-11-nghe-thuat-kaze\\blog-11-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-12-cuoc-cach-mang-cong-rom\\blog-12-1.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-12-cuoc-cach-mang-cong-rom\\blog-12-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-12-cuoc-cach-mang-cong-rom\\blog-12-2.jpg",
+      "PackagePath": "staticwebassets\\IMG\\blogs\\blog-12-cuoc-cach-mang-cong-rom\\blog-12-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1314_1606450403-hoa-valnetine-20.png",
+      "PackagePath": "staticwebassets\\IMG\\products\\cat01\\cat01_1\\1314_1606450403-hoa-valnetine-20.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(1).png",
+      "PackagePath": "staticwebassets\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(1).png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(2).png",
+      "PackagePath": "staticwebassets\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(2).png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(3).png",
+      "PackagePath": "staticwebassets\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(3).png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_2\\1310_1606984910-hoa-valentine-44.png",
+      "PackagePath": "staticwebassets\\IMG\\products\\cat01\\cat01_2\\1310_1606984910-hoa-valentine-44.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_3\\1309_1606534679-hoa-valentine-36.png",
+      "PackagePath": "staticwebassets\\IMG\\products\\cat01\\cat01_3\\1309_1606534679-hoa-valentine-36.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_3\\1606534679-hoa-valentine-36(10).png",
+      "PackagePath": "staticwebassets\\IMG\\products\\cat01\\cat01_3\\1606534679-hoa-valentine-36(10).png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_3\\1606534679-hoa-valentine-36(9).png",
+      "PackagePath": "staticwebassets\\IMG\\products\\cat01\\cat01_3\\1606534679-hoa-valentine-36(9).png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_4\\1311_1606535270-hoa-valentine-37.png",
+      "PackagePath": "staticwebassets\\IMG\\products\\cat01\\cat01_4\\1311_1606535270-hoa-valentine-37.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\Gia.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\avatar\\Gia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\Minh2.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\avatar\\Minh2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\QuocMinh.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\avatar\\QuocMinh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\ThanhHoang.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\avatar\\ThanhHoang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\User.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\avatar\\User.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\female.svg",
+      "PackagePath": "staticwebassets\\IMG\\source\\avatar\\female.svg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\ly.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\avatar\\ly.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\male.svg",
+      "PackagePath": "staticwebassets\\IMG\\source\\avatar\\male.svg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\nghi.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\avatar\\nghi.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\smooth-sky-blue-color-paper-banner-background_8087-4420.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\avatar\\smooth-sky-blue-color-paper-banner-background_8087-4420.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\tung.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\avatar\\tung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\banner\\banner-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-4.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\banner\\banner-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-5.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\banner\\banner-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\blog-banner.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\banner\\blog-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\contact-banner.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\banner\\contact-banner.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\bloom_book.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\brand\\bloom_book.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\bloom_book_overlay.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\brand\\bloom_book_overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\kim_dong.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\brand\\kim_dong.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\kim_dong_overlay.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\brand\\kim_dong_overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nha_nam.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\brand\\nha_nam.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nha_nam_overlay.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\brand\\nha_nam_overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nxb_tre.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\brand\\nxb_tre.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nxb_tre_overlay.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\brand\\nxb_tre_overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\shine_book.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\brand\\shine_book.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\shine_book_overlay.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\brand\\shine_book_overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\freeship.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\freeship.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\home\\bookstore.jpg",
+      "PackagePath": "staticwebassets\\IMG\\source\\home\\bookstore.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\home\\dot.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\home\\dot.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\icon-logo.ico",
+      "PackagePath": "staticwebassets\\IMG\\source\\icon-logo.ico"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\icon-logo.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\icon-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\logo-black.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\logo-black.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\logo-color.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\logo-color.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\logo-no-background.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\logo-no-background.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\logo-white.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\logo.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\test-logo-icon.png",
+      "PackagePath": "staticwebassets\\IMG\\source\\test-logo-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\Text\\DesBook.txt",
+      "PackagePath": "staticwebassets\\Text\\DesBook.txt"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\AddItemCart.css",
+      "PackagePath": "staticwebassets\\css\\AddItemCart.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\Cart.css",
+      "PackagePath": "staticwebassets\\css\\Cart.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\Comment.css",
+      "PackagePath": "staticwebassets\\css\\Comment.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\LoginReg.css",
+      "PackagePath": "staticwebassets\\css\\LoginReg.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\StarRating.css",
+      "PackagePath": "staticwebassets\\css\\StarRating.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\base.css",
+      "PackagePath": "staticwebassets\\css\\base.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\blog-detail.css",
+      "PackagePath": "staticwebassets\\css\\blog-detail.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\grid.css",
+      "PackagePath": "staticwebassets\\css\\grid.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\homepage.css",
+      "PackagePath": "staticwebassets\\css\\homepage.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\jqwidget\\jqx.base.css",
+      "PackagePath": "staticwebassets\\css\\jqwidget\\jqx.base.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\partial\\blog.css",
+      "PackagePath": "staticwebassets\\css\\partial\\blog.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\partial\\book.css",
+      "PackagePath": "staticwebassets\\css\\partial\\book.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\partial\\category.css",
+      "PackagePath": "staticwebassets\\css\\partial\\category.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\product-detail.css",
+      "PackagePath": "staticwebassets\\css\\product-detail.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\Cart.js",
+      "PackagePath": "staticwebassets\\js\\Cart.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\comments.js",
+      "PackagePath": "staticwebassets\\js\\comments.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\comments\\css\\jquery-comments.css",
+      "PackagePath": "staticwebassets\\js\\comments\\css\\jquery-comments.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\comments\\data\\comments-data.js",
+      "PackagePath": "staticwebassets\\js\\comments\\data\\comments-data.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\comments\\js\\jquery-comments.js",
+      "PackagePath": "staticwebassets\\js\\comments\\js\\jquery-comments.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\comments\\js\\jquery-comments.min.js",
+      "PackagePath": "staticwebassets\\js\\comments\\js\\jquery-comments.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\formValidate.js",
+      "PackagePath": "staticwebassets\\js\\formValidate.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxbuttons.js",
+      "PackagePath": "staticwebassets\\js\\jqwidget\\jqxbuttons.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxcore.elements.js",
+      "PackagePath": "staticwebassets\\js\\jqwidget\\jqxcore.elements.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxcore.js",
+      "PackagePath": "staticwebassets\\js\\jqwidget\\jqxcore.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxlistbox.js",
+      "PackagePath": "staticwebassets\\js\\jqwidget\\jqxlistbox.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxrating.js",
+      "PackagePath": "staticwebassets\\js\\jqwidget\\jqxrating.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxscrollbar.js",
+      "PackagePath": "staticwebassets\\js\\jqwidget\\jqxscrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\close.png",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\next.png",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\prev.png",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.js",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\js\\lightbox-plus-jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\js\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox.min.map",
+      "PackagePath": "staticwebassets\\js\\lightbox2\\js\\lightbox.min.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\pagination.js",
+      "PackagePath": "staticwebassets\\js\\pagination.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\slider.js",
+      "PackagePath": "staticwebassets\\js\\slider.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AeFLOWER.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AeFLOWER.props",
+      "PackagePath": "build\\AeFLOWER.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AeFLOWER.props",
+      "PackagePath": "buildMultiTargeting\\AeFLOWER.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AeFLOWER.props",
+      "PackagePath": "buildTransitive\\AeFLOWER.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

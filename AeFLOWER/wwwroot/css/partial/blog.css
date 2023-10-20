@@ -1,0 +1,155 @@
+/* BLOG */
+
+.blog-home-content {
+  display: flex !important;
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+  margin: 2rem 3rem;
+}
+
+.blog-home-img {
+  max-height: 600px;
+  max-width: 350px;
+  height: 100%;
+  width: 100%;
+}
+
+.blog-content {
+  display: flex !important;
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+}
+
+.blog-img {
+  max-height: 600px;
+  max-width: 300px;
+  height: 100%;
+  width: 100%;
+}
+
+
+.blog-info {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 1rem 2rem 2rem;
+}
+
+.blog-home-info {
+  padding-bottom: 0;
+}
+
+.blog-title {
+  font-size: var(--subtitle-size);
+  font-weight: bold;
+  color: var(--dark-color);
+}
+
+.blog-text {
+  padding: .5rem 0;
+  font-weight: 500;
+  opacity: .6;
+}
+
+.blog-btn {
+  font-size: var(--subtitle-size);
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.blog-home-content:hover,
+.blog-content:hover {
+  transform: scale(1.02);
+}
+
+.blog-home-content:hover .blog-title,
+.blog-home-content:hover .blog-btn,
+.blog-content:hover .blog-title,
+.blog-content:hover .blog-btn {
+  color: var(--pink-color);
+}
+
+
+
+
+
+
+
+
+
+
+/* RELATE BLOG */
+.relate-blog {
+  padding: 0 4rem;
+}
+
+.relate-blog-item {
+  padding: 1rem 2rem;
+  border-radius: var(--radius-1);
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+}
+
+.relate-blog-title {
+  font-size: var(--text-size);
+  font-weight: bold;
+  color: var(--blue-color);
+}
+
+.relate-blog-text {
+  padding: .5rem 0;
+  font-size: var(--text-size);
+  font-weight: 500;
+  opacity: .6;
+}
+
+.relate-blog-bottom {
+  padding: .5rem 0;
+}
+
+.relate-blog-tag {
+  padding: .2rem .5rem;
+  color: var(--white-color);
+  background-color: var(--pink-color);
+  border-radius: var(--radius);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .blog-content {
+    flex-direction: column;
+  }
+
+  .blog-img {
+    max-height: 300px;
+    max-width: 600px;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .blog-home-content {
+    flex-direction: column;
+  }
+
+  .blog-home-img {
+    max-height: 300px;
+    max-width: 600px;
+    height: 100%;
+    width: 100%;
+  }
+
+  .relate-blog {
+    padding: 0;
+  }
+}
