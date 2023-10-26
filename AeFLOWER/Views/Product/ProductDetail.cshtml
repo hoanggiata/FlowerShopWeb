@@ -1,16 +1,13 @@
 ﻿@using Azure.Core;
 @model AeFLOWER.Models.Product;
 @using Microsoft.AspNetCore.Http.Extensions;
-
 @{
     ViewData["Title"] = "ProductDetail";
+    <link href="@Url.Content("~/css/AddItemCart.css")" rel="stylesheet" type="text/css" />
     <link href="@Url.Content("~/css/base.css")" rel="stylesheet" type="text/css" />
     <link href="@Url.Content("~/css/grid.css")" rel="stylesheet" type="text/css" />
-    <link href="@Url.Content("~/css/AddItemCart.css")" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/partial/book.css")">
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/product-detail.css")">
-    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/jqwidget/jqx.base.css")">
-    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/StarRating.css")">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <!-- SLICK JS -->
@@ -117,8 +114,8 @@
                     {
                         <div class="info-footer">
                             <div class="row">
-                                <div class="col l-6 m-6 c-12" onclick="AddItem()">
-                                    <div class="buttons"> <button class="cart-button"> <span class="add-to-cart">Add to cart</span> <span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i class="fa fa-square"></i> </button> </div>
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="buttons"><button class="cart-button"><span class="add-to-cart">Add to cart</span><span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i class="fa fa-square"></i> </button> </div>
                                 </div>
 
                                 <div class="col l-6 m-6 c-12">
@@ -127,18 +124,7 @@
                             </div>
                         </div>
                     }
-                    if (!User.Identity.IsAuthenticated)
-                    {
-                        <div class="info-footer">
-                            <div class="row">
-                                <div class="col l-6 m-6 c-12">
-                                    <a class="buy btn" href="@Url.Action("Index","LoginReg")">Mua ngay</a>
-                                </div>
-                            </div>
-                        </div>
-                    }
                 }
-
             </div>
 
         </div>

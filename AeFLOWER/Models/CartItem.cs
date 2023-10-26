@@ -17,6 +17,8 @@ public partial class CartItem
 
     public string CommentPro { get; set; } = null!;
 
+    public Product product { get; set; }
+
     public virtual Product IdProductNavigation { get; set; } = null!;
 
     public virtual ShoppingCart IdShoppingCartNavigation { get; set; } = null!;

@@ -1,0 +1,97 @@
+﻿@model List<AeFLOWER.Models.CartItem>
+@{
+    Layout = null;
+    <link href="@Url.Content("~/css/Cart.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/js/Cart.js")"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="@Url.Content("~/IMG/source/icon-logo.ico")" rel="icon" type="image/x-icon" />
+    <title>Shopping Cart</title>
+
+}
+<div class="card">
+    <div class="row">
+        <div class="col-md-8 cart">
+            <div class="title">
+                <div class="row">
+                    <div class="col"><h4><b>Shopping Cart</b></h4></div>
+                    @{
+                        if (ViewBag.List_Item == null)
+                        {
+                            <div class="col align-self-center text-right text-muted">0 items</div>
+                        }
+                        else
+                        {
+                            <div class="col align-self-center text-right text-muted">@ViewBag.List_Item.Count items</div>
+                        }
+                    }
+
+                </div>
+            </div>
+            @{
+                foreach (var item in Model)
+                {
+                    <div class="row border-top get-product" id="@item.IdProduct">
+                        <div class="row main align-items-center" style="margin-left:-15px !important;">
+                          @*  <div class="col-2"><img class="img-fluid" src="@item.image"></div> *@
+                            <div class="col">
+                              @*  <div class="row text-muted">@item.Cate</div> *@
+                                <div class="row">@item.product.NameProduct</div>
+                                <input type="hidden" value="@item.product.Newcash" class="input-hidden" id="@item.IdProduct">
+                                @*<input type="hidden" value="@item.IdCart" class="post-item"> *@
+                            </div>
+                          @*  <div class="col">
+                                <a href="#" id="quantity-minus" onclick="UpdateQuantity('-1','@item.BookId')">-</a><a href="#" class="border quantity-item" id="quantity-@item.BookId">@item.Quantity</a><a href="#" onclick="UpdateQuantity('1','@item.BookId')">+</a>
+                            </div>
+                            <div class="col"><span id="price-@item.BookId">@item.product_Price</span><span class="close @item.BookId" onclick="RemoveItem(this,'@item.BookId')">&#10005;</span></div>
+                       *@ </div>
+                    </div>
+
+                }
+            }
+
+            <div class="back-to-shop"><a href="@Url.Action("Index","Home")" style="text-decoration:none;">&leftarrow;</a><a class="text-muted" href="@Url.Action("Index","Home")" style="text-decoration:none;">Back to shop</a></div>
+        </div>
+        <div class="col-md-4 summary">
+            <div><h5><b>Summary</b></h5></div>
+            <hr>
+            <div class="row">
+            </div>
+            <form>
+                <p style="font-size:16px; font-weight:400;">ĐỊA CHỈ</p>
+                <input class="input-address" placeholder="Nhập Địa Chỉ Giao Hàng" />
+                <p>SHIPPING</p>
+                <select><option class="text-muted">Giao Hàng Tận Nơi</option></select>
+                <p>Tên Người Nhận</p>
+                <input id="code" placeholder="Tên Người Nhận">
+            </form>
+            <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
+                <div class="col">TOTAL PRICE</div>
+                <div class="col text-right" id="total-price">&euro; 0</div>
+            </div>
+            <button class="btn trigger-btn" data-toggle="modal" onclick="CheckOut()" href="#myModal">CHECKOUT</button>
+            <!-- Modal HTML -->
+            <div id="myModal" class="modal fade" aria-hidden="true" style="display: none;">
+                <div class="modal-dialog modal-confirm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="icon-box">
+                                <i class="material-icons">&#xE876;</i>
+                            </div>
+                            <h4 class="modal-title">Awesome!</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-center">Your booking has been confirmed. Check your email for detials.</p>
+                        </div>
+                        <div class="modal-footer" href="@Url.Action("Index","Home")">
+                            <a class="btn btn-success btn-block" href="@Url.Action("Index","Home")">OK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
