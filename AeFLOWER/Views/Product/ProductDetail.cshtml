@@ -115,7 +115,7 @@
                         <div class="info-footer">
                             <div class="row">
                                 <div class="col l-6 m-6 c-12">
-                                    <div class="buttons"><button class="cart-button"><span class="add-to-cart">Add to cart</span><span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i class="fa fa-square"></i> </button> </div>
+                                    <div class="buttons"><a href="@Url.ActionLink("AddToCart","Product",new{productID = Model.IdProduct,quantity = 1})" class="cart-button"><span class="add-to-cart">Add to cart</span><span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i class="fa fa-square"></i> </a> </div>
                                 </div>
 
                                 <div class="col l-6 m-6 c-12">
@@ -128,7 +128,6 @@
             </div>
 
         </div>
-
         <!-- PRODUCT INFO DETAIL -->
         <div class="row">
             <div class="col l-12 m-12 c-12">
@@ -308,3 +307,4 @@
 
 <script src="~/js/app.js"></script>
 <script src="~/js/slider.js"></script>
+<script src="~/js/Add_ItemToCart.js"></script>

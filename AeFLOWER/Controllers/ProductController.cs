@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.FileProviders;
 using Newtonsoft.Json;
 using System.Dynamic;
+using System.Net;
 using System.Security.Claims;
 using X.PagedList;
 
@@ -25,6 +26,13 @@ namespace AeFLOWER.Controllers
             _logger = logger;
             this.db = db;
         }
+
+        private string GetUserID()
+        {
+            var userID = HttpContext.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)?.Value;
+            return userID;
+        }
+
         [HttpGet]
         public IActionResult Index(int page, string cate = "cat01")
         {
@@ -76,48 +84,75 @@ namespace AeFLOWER.Controllers
             return View(product);
         }
 
-        //Lay Cart tu Session (danh sach Cart Item)
         List<CartItem> GetCartItems()
         {
-            var session = HttpContext.Session;
-            string jsonCart = session.GetString(CartKey);
-            if (jsonCart != null)
-                return JsonConvert.DeserializeObject<List<CartItem>>(jsonCart);
+            List<CartItem> result = new List<CartItem>();
+            List<CartItem> cart = new List<CartItem>();
+            List<ShoppingCart> list_SC = db.ShoppingCarts.Where(x => x.IdUser == GetUserID()).ToList();
+            list_SC.RemoveAll(x => x.OrderShipped == 1);
 
-            return new List<CartItem>();
-        }
-        //Xoa Cart khoi session
-        void ClearCart()
-        {
-            var session = HttpContext.Session;
-            session.Remove(CartKey);
-        }
+            var query = from c_item in CartItem.GetAllCartItem() //Left Data Source
+                        join s_cart in list_SC //Right Data Source
+                        on c_item.IdShoppingCart equals s_cart.IdCart //Inner Join Condition
+                        into CartItemFromUserGroup //Performing LINQ Group Join
+                        from shopping_cart in CartItemFromUserGroup.DefaultIfEmpty() //Performing Left Outer Join
+                        select new { c_item, shopping_cart };
+    
+            foreach(var item in query)
+            {
+                result.Add(item.c_item);
+            }
 
-        //Luu Cart(Danh sach CartItem) vao session
-        void SaveCartSession(List<CartItem>ls)
-        {
-            var session = HttpContext.Session;
-            string jsonCart = JsonConvert.SerializeObject(ls);
-            session.SetString(CartKey, jsonCart);
+            return result;
         }
 
-        public IActionResult AddToCart(string productID)
+        public Task AddToCart(string productID,int quantity)
         {
             var product = db.Products.Find(productID);
-            if (product == null)
-                return NotFound("Không có sản phẩm");
-
-            var cart = GetCartItems();
-            var cartItem = cart.Find(p => p.IdProduct == productID);
-            if(cartItem!=null)
+            ShoppingCart shoppingCart = db.ShoppingCarts.FirstOrDefault(x => x.IdUser == GetUserID() && x.OrderShipped == 0);
+            if(shoppingCart == null)
             {
-                cartItem.QuantityItem++;
+                shoppingCart = ShoppingCart.CreateShoppingCart(GetUserID());
+                db.ShoppingCarts.Add(shoppingCart);
+                db.SaveChanges();
             }
-            else
-                cart.Add(new CartItem() { QuantityItem = 1, product = product });
 
-            return RedirectToAction(nameof(Cart));
+            
+            bool checkNullListCart = db.CartItems.Where(x=>x.IdShoppingCart == shoppingCart.IdCart).Any();
+            if (!checkNullListCart)
+            {
+                CartItem item = new CartItem();
+                item.IdShoppingCart = shoppingCart.IdCart;
+                item.IdProduct = productID;
+                item.QuantityItem = quantity;
+                db.CartItems.Add(item);
+                db.SaveChanges();
+                return Task.CompletedTask;
+            }
 
+            List<CartItem> list_CartItem = CartItem.GetAllCartItemByIdSC(shoppingCart.IdCart);
+            foreach (CartItem item in list_CartItem)
+            {
+                if (item.IdProduct == productID)
+                {
+                    item.QuantityItem++;
+                    db.CartItems.Update(item);
+                    db.SaveChanges();
+                    return Task.CompletedTask;
+                }
+            }
+
+            CartItem addItem = new CartItem();
+           // addItem.IdCartItem = list_CartItem.OrderBy(x => x.IdCartItem).Last().IdCartItem + 1;
+            addItem.IdProduct = productID;
+            addItem.QuantityItem = quantity;
+            addItem.IdShoppingCart = shoppingCart.IdCart;
+            db.CartItems.Add(addItem);
+            db.SaveChanges();
+            return Task.CompletedTask;
+           
+
+            /*  */
         }
 
         public IActionResult RemoveCart(string productID)
@@ -133,7 +168,18 @@ namespace AeFLOWER.Controllers
 
         public IActionResult Cart()
         {
-            return View(GetCartItems());
+            List<CartItem> test = GetCartItems();
+            List<Product> list_product = Product.GetAllProduct();
+
+            var query = from c_item in CartItem.GetAllCartItem() //Left Data Source
+                        join product in list_product //Right Data Source
+                        on c_item.IdProduct equals product.IdProduct //Inner Join Condition
+                        into CartItemFromUserGroup //Performing LINQ Group Join
+                        from product in CartItemFromUserGroup.DefaultIfEmpty() //Performing Left Outer Join
+                        select new { c_item, product };
+
+            ViewBag.Query = query;
+            return View();
         }
 
         public IActionResult CheckOut()

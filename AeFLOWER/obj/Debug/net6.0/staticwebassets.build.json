@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XzBQbLdnBCRgagQtJAv52jXtjjUifRC1VC08x2lUt0g=",
+  "Hash": "5zU2RuInWwzIQPFj8+R5HFeZ0RgYv/OJcxiEqjJieeQ=",
   "Source": "AeFLOWER",
   "BasePath": "_content/AeFLOWER",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "AeFLOWER\\wwwroot",
       "Source": "AeFLOWER",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AeFLOWER.styles.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AeFLOWER.styles.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "AeFLOWER.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AeFLOWER.styles.css"
+      "OriginalItemSpec": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\bundle\\AeFLOWER.styles.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AeFLOWER.bundle.scp.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AeFLOWER.bundle.scp.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "AeFLOWER.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AeFLOWER.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AeFLOWER.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\AddItemCart.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\AddItemCart.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/AddItemCart.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\AddItemCart.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\base.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\base.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/base.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\base.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\blog-detail.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\blog-detail.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/blog-detail.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\blog-detail.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\Cart.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\Cart.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/Cart.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Cart.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\Comment.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\Comment.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/Comment.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Comment.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\contact.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\contact.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/contact.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\contact.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\grid.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\grid.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/grid.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\grid.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\homepage.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\homepage.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/homepage.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\homepage.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\jqwidget\\jqx.base.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\jqwidget\\jqx.base.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/jqwidget/jqx.base.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\jqwidget\\jqx.base.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\LoginReg.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\LoginReg.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/LoginReg.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\LoginReg.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\partial\\blog.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\partial\\blog.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/partial/blog.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\partial\\blog.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\partial\\book.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\partial\\book.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/partial/book.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\partial\\book.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\partial\\category.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\partial\\category.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/partial/category.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\partial\\category.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\product-detail.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\product-detail.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/product-detail.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\product-detail.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\profile.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\profile.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/profile.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\css\\profile.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\site.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\css\\StarRating.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\css\\StarRating.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "css/StarRating.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\StarRating.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\favicon.ico",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-01-hai-mat-gia-dinh\\blog-01-1.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-01-hai-mat-gia-dinh\\blog-01-1.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-01-hai-mat-gia-dinh/blog-01-1.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-01-hai-mat-gia-dinh\\blog-01-1.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-01-hai-mat-gia-dinh\\blog-01-2.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-01-hai-mat-gia-dinh\\blog-01-2.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-01-hai-mat-gia-dinh/blog-01-2.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-01-hai-mat-gia-dinh\\blog-01-2.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-02-goc-khuat-cua-yeu-thuong\\blog-02-1.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-02-goc-khuat-cua-yeu-thuong\\blog-02-1.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-02-goc-khuat-cua-yeu-thuong/blog-02-1.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-02-goc-khuat-cua-yeu-thuong\\blog-02-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-02-goc-khuat-cua-yeu-thuong\\blog-02-2.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-02-goc-khuat-cua-yeu-thuong\\blog-02-2.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-02-goc-khuat-cua-yeu-thuong/blog-02-2.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-02-goc-khuat-cua-yeu-thuong\\blog-02-2.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-03-chu-nghia-toi-gian\\blog-03-1.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-03-chu-nghia-toi-gian\\blog-03-1.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-03-chu-nghia-toi-gian/blog-03-1.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-03-chu-nghia-toi-gian\\blog-03-1.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-03-chu-nghia-toi-gian\\blog-03-2.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-03-chu-nghia-toi-gian\\blog-03-2.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-03-chu-nghia-toi-gian/blog-03-2.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-03-chu-nghia-toi-gian\\blog-03-2.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-04-chi-so-vuot-kho\\blog-04-1.gif",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-04-chi-so-vuot-kho\\blog-04-1.gif",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-04-chi-so-vuot-kho/blog-04-1.gif",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-04-chi-so-vuot-kho\\blog-04-1.gif"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-04-chi-so-vuot-kho\\blog-04-2.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-04-chi-so-vuot-kho\\blog-04-2.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-04-chi-so-vuot-kho/blog-04-2.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-04-chi-so-vuot-kho\\blog-04-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-05-ga-nghien-giay\\blog-05-1.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-05-ga-nghien-giay\\blog-05-1.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-05-ga-nghien-giay/blog-05-1.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-05-ga-nghien-giay\\blog-05-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-05-ga-nghien-giay\\blog-05-2.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-05-ga-nghien-giay\\blog-05-2.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-05-ga-nghien-giay/blog-05-2.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-05-ga-nghien-giay\\blog-05-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-06-cang-ky-luat-cang-tu-do\\blog-06-1.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-06-cang-ky-luat-cang-tu-do\\blog-06-1.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-06-cang-ky-luat-cang-tu-do/blog-06-1.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-06-cang-ky-luat-cang-tu-do\\blog-06-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-06-cang-ky-luat-cang-tu-do\\blog-06-2.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-06-cang-ky-luat-cang-tu-do\\blog-06-2.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-06-cang-ky-luat-cang-tu-do/blog-06-2.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-06-cang-ky-luat-cang-tu-do\\blog-06-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-07-wabi-sabi\\blog-07-1.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-07-wabi-sabi\\blog-07-1.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-07-wabi-sabi/blog-07-1.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-07-wabi-sabi\\blog-07-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-07-wabi-sabi\\blog-07-2.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-07-wabi-sabi\\blog-07-2.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-07-wabi-sabi/blog-07-2.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-07-wabi-sabi\\blog-07-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-08-mat-phai\\blog-08-1.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-08-mat-phai\\blog-08-1.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-08-mat-phai/blog-08-1.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-08-mat-phai\\blog-08-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-08-mat-phai\\blog-08-2.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-08-mat-phai\\blog-08-2.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-08-mat-phai/blog-08-2.jpg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-08-mat-phai\\blog-08-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-09-tat-ca-deu-la-chuyen-nho\\blog-09-1.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-09-tat-ca-deu-la-chuyen-nho\\blog-09-1.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-09-tat-ca-deu-la-chuyen-nho/blog-09-1.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-09-tat-ca-deu-la-chuyen-nho\\blog-09-1.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-09-tat-ca-deu-la-chuyen-nho\\blog-09-2.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-09-tat-ca-deu-la-chuyen-nho\\blog-09-2.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-09-tat-ca-deu-la-chuyen-nho/blog-09-2.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-09-tat-ca-deu-la-chuyen-nho\\blog-09-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-10-minh-la-ca\\blog-10-1.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-10-minh-la-ca\\blog-10-1.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-10-minh-la-ca/blog-10-1.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-10-minh-la-ca\\blog-10-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-10-minh-la-ca\\blog-10-2.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-10-minh-la-ca\\blog-10-2.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-10-minh-la-ca/blog-10-2.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-10-minh-la-ca\\blog-10-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-11-nghe-thuat-kaze\\blog-11-1.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-11-nghe-thuat-kaze\\blog-11-1.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-11-nghe-thuat-kaze/blog-11-1.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-11-nghe-thuat-kaze\\blog-11-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-11-nghe-thuat-kaze\\blog-11-2.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-11-nghe-thuat-kaze\\blog-11-2.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-11-nghe-thuat-kaze/blog-11-2.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-11-nghe-thuat-kaze\\blog-11-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-12-cuoc-cach-mang-cong-rom\\blog-12-1.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-12-cuoc-cach-mang-cong-rom\\blog-12-1.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-12-cuoc-cach-mang-cong-rom/blog-12-1.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-12-cuoc-cach-mang-cong-rom\\blog-12-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-12-cuoc-cach-mang-cong-rom\\blog-12-2.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\blogs\\blog-12-cuoc-cach-mang-cong-rom\\blog-12-2.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/blogs/blog-12-cuoc-cach-mang-cong-rom/blog-12-2.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\blogs\\blog-12-cuoc-cach-mang-cong-rom\\blog-12-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1314_1606450403-hoa-valnetine-20.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1314_1606450403-hoa-valnetine-20.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/products/cat01/cat01_1/1314_1606450403-hoa-valnetine-20.png",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\products\\cat01\\cat01_1\\1314_1606450403-hoa-valnetine-20.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(1).png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(1).png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/products/cat01/cat01_1/1606450403-hoa-valnetine-20(1).png",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(1).png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(2).png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(2).png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/products/cat01/cat01_1/1606450403-hoa-valnetine-20(2).png",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(2).png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(3).png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(3).png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/products/cat01/cat01_1/1606450403-hoa-valnetine-20(3).png",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\products\\cat01\\cat01_1\\1606450403-hoa-valnetine-20(3).png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_2\\1310_1606984910-hoa-valentine-44.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_2\\1310_1606984910-hoa-valentine-44.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/products/cat01/cat01_2/1310_1606984910-hoa-valentine-44.png",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\products\\cat01\\cat01_2\\1310_1606984910-hoa-valentine-44.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_3\\1309_1606534679-hoa-valentine-36.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_3\\1309_1606534679-hoa-valentine-36.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/products/cat01/cat01_3/1309_1606534679-hoa-valentine-36.png",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\products\\cat01\\cat01_3\\1309_1606534679-hoa-valentine-36.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_3\\1606534679-hoa-valentine-36(10).png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_3\\1606534679-hoa-valentine-36(10).png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/products/cat01/cat01_3/1606534679-hoa-valentine-36(10).png",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\products\\cat01\\cat01_3\\1606534679-hoa-valentine-36(10).png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_3\\1606534679-hoa-valentine-36(9).png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_3\\1606534679-hoa-valentine-36(9).png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/products/cat01/cat01_3/1606534679-hoa-valentine-36(9).png",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\products\\cat01\\cat01_3\\1606534679-hoa-valentine-36(9).png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_4\\1311_1606535270-hoa-valentine-37.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\products\\cat01\\cat01_4\\1311_1606535270-hoa-valentine-37.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/products/cat01/cat01_4/1311_1606535270-hoa-valentine-37.png",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\products\\cat01\\cat01_4\\1311_1606535270-hoa-valentine-37.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\female.svg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\female.svg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/avatar/female.svg",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\avatar\\female.svg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\Gia.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\Gia.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/avatar/Gia.jpg",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\avatar\\Gia.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\ly.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\ly.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/avatar/ly.jpg",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\avatar\\ly.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\male.svg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\male.svg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/avatar/male.svg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\avatar\\male.svg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\Minh2.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\Minh2.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/avatar/Minh2.jpg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\avatar\\Minh2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\nghi.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\nghi.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/avatar/nghi.png",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\avatar\\nghi.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\QuocMinh.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\QuocMinh.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/avatar/QuocMinh.jpg",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\avatar\\QuocMinh.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\smooth-sky-blue-color-paper-banner-background_8087-4420.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\smooth-sky-blue-color-paper-banner-background_8087-4420.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/avatar/smooth-sky-blue-color-paper-banner-background_8087-4420.jpg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\avatar\\smooth-sky-blue-color-paper-banner-background_8087-4420.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\ThanhHoang.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\ThanhHoang.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/avatar/ThanhHoang.jpg",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\avatar\\ThanhHoang.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\tung.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\tung.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/avatar/tung.jpg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\avatar\\tung.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\User.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\avatar\\User.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/avatar/User.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\avatar\\User.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-1.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-1.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/banner/banner-1.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\banner\\banner-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-2.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-2.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/banner/banner-2.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\banner\\banner-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-3.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-3.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/banner/banner-3.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\banner\\banner-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-4.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-4.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/banner/banner-4.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\banner\\banner-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-5.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\banner-5.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/banner/banner-5.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\banner\\banner-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\blog-banner.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\blog-banner.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/banner/blog-banner.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\banner\\blog-banner.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\contact-banner.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\banner\\contact-banner.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/banner/contact-banner.png",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\banner\\contact-banner.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\bloom_book.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\bloom_book.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/brand/bloom_book.png",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\brand\\bloom_book.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\bloom_book_overlay.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\bloom_book_overlay.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/brand/bloom_book_overlay.png",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\brand\\bloom_book_overlay.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\kim_dong.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\kim_dong.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/brand/kim_dong.png",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\brand\\kim_dong.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\kim_dong_overlay.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\kim_dong_overlay.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/brand/kim_dong_overlay.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\brand\\kim_dong_overlay.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nha_nam.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nha_nam.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/brand/nha_nam.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\brand\\nha_nam.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nha_nam_overlay.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nha_nam_overlay.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/brand/nha_nam_overlay.png",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\brand\\nha_nam_overlay.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nxb_tre.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nxb_tre.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/brand/nxb_tre.png",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\brand\\nxb_tre.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nxb_tre_overlay.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\nxb_tre_overlay.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/brand/nxb_tre_overlay.png",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\brand\\nxb_tre_overlay.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\shine_book.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\shine_book.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/brand/shine_book.png",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\brand\\shine_book.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\shine_book_overlay.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\brand\\shine_book_overlay.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/brand/shine_book_overlay.png",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\brand\\shine_book_overlay.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\freeship.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\freeship.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/freeship.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\freeship.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\home\\bookstore.jpg",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\home\\bookstore.jpg",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/home/bookstore.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\home\\bookstore.jpg"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\home\\dot.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\home\\dot.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/home/dot.png",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\home\\dot.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\icon-logo.ico",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\icon-logo.ico",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/icon-logo.ico",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\icon-logo.ico"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\icon-logo.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\icon-logo.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/icon-logo.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\icon-logo.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\logo.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\logo.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/logo.png",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\logo-black.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\logo-black.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/logo-black.png",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\logo-black.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\logo-color.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\logo-color.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/logo-color.png",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\logo-color.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\logo-no-background.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\logo-no-background.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/logo-no-background.png",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\logo-no-background.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\logo-white.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\logo-white.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/logo-white.png",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\logo-white.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\IMG\\source\\test-logo-icon.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\IMG\\source\\test-logo-icon.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "IMG/source/test-logo-icon.png",
       "AssetKind": "All",
@@ -1581,10 +1581,27 @@
       "OriginalItemSpec": "wwwroot\\IMG\\source\\test-logo-icon.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\app.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\Add_ItemToCart.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
+      "BasePath": "_content/AeFLOWER",
+      "RelativePath": "js/Add_ItemToCart.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Add_ItemToCart.js"
+    },
+    {
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\app.js",
+      "SourceId": "AeFLOWER",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/app.js",
       "AssetKind": "All",
@@ -1598,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\js\\app.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\Cart.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\Cart.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/Cart.js",
       "AssetKind": "All",
@@ -1615,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Cart.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\comments.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\comments.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/comments.js",
       "AssetKind": "All",
@@ -1632,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\js\\comments.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\comments\\css\\jquery-comments.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\comments\\css\\jquery-comments.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/comments/css/jquery-comments.css",
       "AssetKind": "All",
@@ -1649,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\js\\comments\\css\\jquery-comments.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\comments\\data\\comments-data.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\comments\\data\\comments-data.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/comments/data/comments-data.js",
       "AssetKind": "All",
@@ -1666,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\js\\comments\\data\\comments-data.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\comments\\js\\jquery-comments.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\comments\\js\\jquery-comments.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/comments/js/jquery-comments.js",
       "AssetKind": "All",
@@ -1683,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\js\\comments\\js\\jquery-comments.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\comments\\js\\jquery-comments.min.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\comments\\js\\jquery-comments.min.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/comments/js/jquery-comments.min.js",
       "AssetKind": "All",
@@ -1700,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\js\\comments\\js\\jquery-comments.min.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\formValidate.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\formValidate.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/formValidate.js",
       "AssetKind": "All",
@@ -1717,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\js\\formValidate.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxbuttons.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxbuttons.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/jqwidget/jqxbuttons.js",
       "AssetKind": "All",
@@ -1734,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jqwidget\\jqxbuttons.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxcore.elements.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxcore.elements.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/jqwidget/jqxcore.elements.js",
       "AssetKind": "All",
@@ -1751,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jqwidget\\jqxcore.elements.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxcore.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxcore.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/jqwidget/jqxcore.js",
       "AssetKind": "All",
@@ -1768,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jqwidget\\jqxcore.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxlistbox.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxlistbox.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/jqwidget/jqxlistbox.js",
       "AssetKind": "All",
@@ -1785,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jqwidget\\jqxlistbox.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxrating.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxrating.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/jqwidget/jqxrating.js",
       "AssetKind": "All",
@@ -1802,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jqwidget\\jqxrating.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxscrollbar.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\jqwidget\\jqxscrollbar.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/jqwidget/jqxscrollbar.js",
       "AssetKind": "All",
@@ -1819,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jqwidget\\jqxscrollbar.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\css\\lightbox.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\css\\lightbox.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/css/lightbox.css",
       "AssetKind": "All",
@@ -1836,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\css\\lightbox.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\css\\lightbox.min.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\css\\lightbox.min.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/css/lightbox.min.css",
       "AssetKind": "All",
@@ -1853,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\css\\lightbox.min.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\close.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\close.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/images/close.png",
       "AssetKind": "All",
@@ -1870,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\images\\close.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\loading.gif",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\loading.gif",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/images/loading.gif",
       "AssetKind": "All",
@@ -1887,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\images\\loading.gif"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\next.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\next.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/images/next.png",
       "AssetKind": "All",
@@ -1904,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\images\\next.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\prev.png",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\images\\prev.png",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/images/prev.png",
       "AssetKind": "All",
@@ -1921,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\images\\prev.png"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/js/lightbox.js",
       "AssetKind": "All",
@@ -1938,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\js\\lightbox.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox.min.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox.min.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/js/lightbox.min.js",
       "AssetKind": "All",
@@ -1955,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\js\\lightbox.min.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox.min.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox.min.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/js/lightbox.min.map",
       "AssetKind": "All",
@@ -1972,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\js\\lightbox.min.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/js/lightbox-plus-jquery.js",
       "AssetKind": "All",
@@ -1989,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.min.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.min.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/js/lightbox-plus-jquery.min.js",
       "AssetKind": "All",
@@ -2006,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.min.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.min.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/lightbox2/js/lightbox-plus-jquery.min.map",
       "AssetKind": "All",
@@ -2023,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\js\\lightbox2\\js\\lightbox-plus-jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\pagination.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\pagination.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/pagination.js",
       "AssetKind": "All",
@@ -2040,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\js\\pagination.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\site.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2057,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\js\\slider.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\slider.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "js/slider.js",
       "AssetKind": "All",
@@ -2074,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\js\\slider.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2091,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2108,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2125,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2142,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2159,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2176,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2193,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2210,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2227,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2244,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2261,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2278,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2295,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2312,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2329,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2346,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2363,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2380,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2397,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2414,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2431,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2448,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2465,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2482,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2499,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2516,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2533,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2550,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2567,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2584,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2601,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2618,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2635,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2652,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2669,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2686,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2703,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2720,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2737,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2754,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2771,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2788,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2805,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2822,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2839,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2856,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2873,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2890,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2907,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2924,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2941,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2958,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2975,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2992,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3009,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3026,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -3043,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\Text\\DesBook.txt",
+      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\Text\\DesBook.txt",
       "SourceId": "AeFLOWER",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoanggia\\Desktop\\TaiLieuHTML-CSS\\DoAnThuongMaiDienTu\\AeFLOWER\\AeFLOWER\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
       "BasePath": "_content/AeFLOWER",
       "RelativePath": "Text/DesBook.txt",
       "AssetKind": "All",

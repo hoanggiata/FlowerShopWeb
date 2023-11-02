@@ -61,7 +61,7 @@ create table Account(
 	Address nvarchar(256),
 	Country nvarchar(30),
 	account_des nvarchar(100),
-	phone_number 
+	phone_number int
 )
 
 
@@ -70,15 +70,23 @@ create table ShoppingCart(
 	id_cart int IDENTITY primary key not null,
 	id_user varchar(36),
 	cart_time SMALLDATETIME,
+	total_price decimal,
 	PhoneNonAccount VARCHAR(11),
-	NameCusNonAccount VARCHAR(100)
+	NameCusNonAccount VARCHAR(100),
+	order_address nvarchar(100),
+	order_name_nonAccount nvarchar(100),
+	order_city nvarchar(50),
+	order_phone varchar(20),
+	order_shipped TINYINT default 0,
+	order_email varchar(100),
+	order_tracking_number varchar(50)
 )
 create table CartItem(
 	id_CartItem int IDENTITY primary key not null,
 	id_shoppingCart int not null,
 	id_product nvarchar(30) not null,
+	payment_id int,
 	quantity_item int not null,
-	price VARCHAR(30) not null,
 )
 
 alter table Product 

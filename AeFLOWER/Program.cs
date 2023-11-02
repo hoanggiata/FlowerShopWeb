@@ -14,11 +14,7 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     options.ExpireTimeSpan = TimeSpan.FromDays(10);
     options.SlidingExpiration = true;
 });
-builder.Services.AddDistributedMemoryCache();
-builder.Services.AddSession(temp => { 
-    temp.Cookie.Name = "flowershopsession";
-    temp.IdleTimeout = new TimeSpan(0, 30, 0);
-});
+
 builder.Services.AddDbContext<FlowershopContext>();
 
 var app = builder.Build();
@@ -33,7 +29,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-app.UseSession();
+
 app.UseRouting();
 
 app.UseAuthentication();

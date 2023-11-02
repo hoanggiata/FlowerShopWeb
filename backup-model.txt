@@ -1,0 +1,56 @@
+Scaffold-DbContext "Server=.;Database=flowershop;Trusted_Connection=true;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+
+*****Cartitem
+   public Product product { get; set; }
+
+---Category
+
+  public List<Category> GetCate()
+  {
+      FlowershopContext db = new FlowershopContext();
+
+      List<Category> categories = db.Categories.ToList();
+      return categories;
+  }
+
+----Product
+
+ public List<Product> GetTopProduct()
+ {
+     FlowershopContext db = new FlowershopContext();
+     var query = db.Products.ToList();
+     List<Product> result = new List<Product>();
+     foreach (Product item in query)
+     {
+         if (item.StarSum > 4) result.Add(item);
+     }
+     return result;
+ }
+
+ public List<Product> GetProductExById(string id)
+ {
+     FlowershopContext db = new FlowershopContext();
+     var query = db.Products.ToList();
+     List<Product> result = new List<Product>();
+     foreach (Product item in query)
+     {
+         if (item.IdProduct != id)
+             result.Add(item);
+     }
+     return result;
+ }
+
+ public List<Product> GetProductByCate(string idCate)
+ {
+     FlowershopContext db = new FlowershopContext();
+     var list = db.Products.ToList();
+     List<Product> result = new List<Product>();
+     foreach(Product item in list)
+     {
+         if (item.IdCate == idCate)
+             result.Add(item);
+     }
+     return result;
+ }

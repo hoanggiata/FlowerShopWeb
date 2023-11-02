@@ -33,6 +33,7 @@ public partial class Product
 
     public virtual Category? IdCateNavigation { get; set; }
 
+
     public List<Product> GetTopProduct()
     {
         FlowershopContext db = new FlowershopContext();
@@ -63,11 +64,17 @@ public partial class Product
         FlowershopContext db = new FlowershopContext();
         var list = db.Products.ToList();
         List<Product> result = new List<Product>();
-        foreach(Product item in list)
+        foreach (Product item in list)
         {
             if (item.IdCate == idCate)
                 result.Add(item);
         }
+        return result;
+    }
+    public static List<Product> GetAllProduct()
+    {
+        var db = new FlowershopContext();
+        List<Product> result = db.Products.ToList();
         return result;
     }
 }

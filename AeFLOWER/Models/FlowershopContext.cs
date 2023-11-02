@@ -33,7 +33,7 @@ public partial class FlowershopContext : DbContext
     {
         modelBuilder.Entity<Account>(entity =>
         {
-            entity.HasKey(e => e.AccountId).HasName("PK__Account__349DA5A670FD2F0C");
+            entity.HasKey(e => e.AccountId).HasName("PK__Account__349DA5A6B40AAB24");
 
             entity.ToTable("Account");
 
@@ -57,6 +57,7 @@ public partial class FlowershopContext : DbContext
             entity.Property(e => e.Password)
                 .HasMaxLength(256)
                 .IsUnicode(false);
+            entity.Property(e => e.PhoneNumber).HasColumnName("phone_number");
             entity.Property(e => e.Username)
                 .HasMaxLength(32)
                 .IsUnicode(false);
@@ -64,20 +65,16 @@ public partial class FlowershopContext : DbContext
 
         modelBuilder.Entity<CartItem>(entity =>
         {
-            entity.HasKey(e => e.IdCartItem).HasName("PK__CartItem__8E5A0FCE6AE025B3");
+            entity.HasKey(e => e.IdCartItem).HasName("PK__CartItem__8E5A0FCE12C0BC70");
 
             entity.ToTable("CartItem");
 
             entity.Property(e => e.IdCartItem).HasColumnName("id_CartItem");
-            entity.Property(e => e.CommentPro).HasMaxLength(100);
             entity.Property(e => e.IdProduct)
                 .HasMaxLength(30)
                 .HasColumnName("id_product");
             entity.Property(e => e.IdShoppingCart).HasColumnName("id_shoppingCart");
-            entity.Property(e => e.Price)
-                .HasMaxLength(30)
-                .IsUnicode(false)
-                .HasColumnName("price");
+            entity.Property(e => e.PaymentId).HasColumnName("payment_id");
             entity.Property(e => e.QuantityItem).HasColumnName("quantity_item");
 
             entity.HasOne(d => d.IdProductNavigation).WithMany(p => p.CartItems)
@@ -93,7 +90,7 @@ public partial class FlowershopContext : DbContext
 
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.IdCategory).HasName("PK__Category__E548B673E2438A09");
+            entity.HasKey(e => e.IdCategory).HasName("PK__Category__E548B67320D08114");
 
             entity.ToTable("Category");
 
@@ -111,7 +108,7 @@ public partial class FlowershopContext : DbContext
 
         modelBuilder.Entity<Product>(entity =>
         {
-            entity.HasKey(e => e.IdProduct).HasName("PK__Product__BA39E84FAC28F6B3");
+            entity.HasKey(e => e.IdProduct).HasName("PK__Product__BA39E84F674485BD");
 
             entity.ToTable("Product");
 
@@ -149,7 +146,7 @@ public partial class FlowershopContext : DbContext
 
         modelBuilder.Entity<ShoppingCart>(entity =>
         {
-            entity.HasKey(e => e.IdCart).HasName("PK__Shopping__C71FE31796ABC06E");
+            entity.HasKey(e => e.IdCart).HasName("PK__Shopping__C71FE3171D35DF80");
 
             entity.ToTable("ShoppingCart");
 
@@ -164,13 +161,37 @@ public partial class FlowershopContext : DbContext
             entity.Property(e => e.NameCusNonAccount)
                 .HasMaxLength(100)
                 .IsUnicode(false);
+            entity.Property(e => e.OrderAddress)
+                .HasMaxLength(100)
+                .HasColumnName("order_address");
+            entity.Property(e => e.OrderCity)
+                .HasMaxLength(50)
+                .HasColumnName("order_city");
+            entity.Property(e => e.OrderEmail)
+                .HasMaxLength(100)
+                .IsUnicode(false)
+                .HasColumnName("order_email");
+            entity.Property(e => e.OrderNameNonAccount)
+                .HasMaxLength(100)
+                .HasColumnName("order_name_nonAccount");
+            entity.Property(e => e.OrderPhone)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("order_phone");
+            entity.Property(e => e.OrderShipped).HasColumnName("order_shipped");
+            entity.Property(e => e.OrderTrackingNumber)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("order_tracking_number");
             entity.Property(e => e.PhoneNonAccount)
                 .HasMaxLength(11)
                 .IsUnicode(false);
+            entity.Property(e => e.TotalPrice)
+                .HasColumnType("decimal(18, 0)")
+                .HasColumnName("total_price");
 
             entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.ShoppingCarts)
                 .HasForeignKey(d => d.IdUser)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_account_id");
         });
 

@@ -13,6 +13,7 @@ public partial class Category
 
     public virtual ICollection<Product> Products { get; set; } = new List<Product>();
 
+
     public List<Category> GetCate()
     {
         FlowershopContext db = new FlowershopContext();

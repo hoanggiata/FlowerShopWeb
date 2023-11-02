@@ -23,5 +23,7 @@ public partial class Account
 
     public string? AccountDes { get; set; }
 
+    public int? PhoneNumber { get; set; }
+
     public virtual ICollection<ShoppingCart> ShoppingCarts { get; set; } = new List<ShoppingCart>();
 }
