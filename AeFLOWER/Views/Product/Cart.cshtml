@@ -22,11 +22,11 @@
                     @{
                         if (ViewBag.List_Item == null)
                         {
-                            <div class="col align-self-center text-right text-muted">0 items</div>
+                                                <div class="col align-self-center text-right text-muted">0 items</div>
                         }
                         else
                         {
-                            <div class="col align-self-center text-right text-muted">@ViewBag.List_Item.Count items</div>
+                                                <div class="col align-self-center text-right text-muted">@ViewBag.List_Item.Count items</div>
                         }
                     }
 
@@ -35,21 +35,21 @@
             @{
                 foreach (var item in ViewBag.Query)
                 {
-                    <div class="row border-top get-product" id="@item.c_item.IdProduct">
-                        <div class="row main align-items-center" style="margin-left:-15px !important;">
-                            <div class="col-2"><img class="img-fluid" src="@item.product.Imageurl"></div>
-                            <div class="col">
-                              @*  <div class="row text-muted">@item.Cate</div> *@
-                                <div class="row">@item.product.NameProduct</div>
-                                <input type="hidden" value="@item.product.Newcash" class="input-hidden" id="@item.c_item.IdProduct">
-                                @*<input type="hidden" value="@item.IdCart" class="post-item"> *@
-                            </div>
-                           <div class="col">
-                                <a href="#" id="quantity-minus" onclick="UpdateQuantity('-1','@item.c_item.IdProduct')">-</a><a href="#" class="border quantity-item" id="quantity-@item.c_item.IdProduct">@item.c_item.QuantityItem</a><a href="#" onclick="UpdateQuantity('1','@item.c_item.IdProduct')">+</a>
-                            </div>
-                            <div class="col"><span id="@item.c_item.IdProduct">@item.product.Newcash</span><span class="close @item.c_item.IdProduct" onclick="RemoveItem(this,'@item.c_item.IdProduct')">&#10005;</span></div>
-                           </div>
-                    </div>
+                                        <div class="row border-top get-product" id="@item.c_item.IdProduct">
+                                            <div class="row main align-items-center" style="margin-left:-15px !important;">
+                                                <div class="col-2"><img class="img-fluid" src="@item.product.Imageurl"></div>
+                                                <div class="col">
+                                                    @*  <div class="row text-muted">@item.Cate</div> *@
+                                                    <div class="row">@item.product.NameProduct</div>
+                                                    <input type="hidden" value="@item.product.Newcash" class="input-hidden" id="@item.c_item.IdProduct">
+                                                    @*<input type="hidden" value="@item.IdCart" class="post-item"> *@
+                                                </div>
+                                                <div class="col">
+                                                    <a href="#" id="quantity-minus" onclick="UpdateQuantity('-1','@item.c_item.IdProduct')">-</a><a href="#" class="border quantity-item" id="quantity-@item.c_item.IdProduct">@item.c_item.QuantityItem</a><a href="#" onclick="UpdateQuantity('1','@item.c_item.IdProduct')">+</a>
+                                                </div>
+                                                <div class="col"><span id="@item.c_item.IdProduct">@item.product.Newcash</span><span class="close @item.c_item.IdProduct" onclick="RemoveItem(this,'@item.c_item.IdProduct','@ViewBag.Flag')">&#10005;</span></div>
+                                            </div>
+                                        </div>
 
                 }
             }
@@ -119,3 +119,37 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    function PostRemoveItem(abc,flag)
+    {
+        $.ajax({
+            type: "POST",
+            url: "/Product/RemoveItem",
+            data: { productID: abc, Flag: flag },
+            success: function (data) {
+                alert(data);
+            },
+            error: function (err) {
+                alert("That Bai");
+            }
+        });
+    }
+
+    function RemoveItem(obj,abc,flag)
+    {
+        let item = document.getElementById(abc);
+        console.log(flag);
+
+        //Remove item from front-end
+        PostRemoveItem(abc,flag)
+
+        while (item.hasChildNodes())
+            item.removeChild(item.firstChild);
+
+        item.remove();
+
+    }
+       
+       
+</script>

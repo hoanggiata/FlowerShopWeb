@@ -124,6 +124,20 @@
                             </div>
                         </div>
                     }
+                    if (!User.Identity.IsAuthenticated)
+                    {
+                        <div class="info-footer">
+                            <div class="row">
+                                <div class="col l-6 m-6 c-12">
+                                    <div class="buttons"><a href="@Url.ActionLink("AddToCartNonLogin","Product",new{productID = Model.IdProduct,quantity = 1})" class="cart-button"><span class="add-to-cart">Add to cart</span><span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i class="fa fa-square"></i> </a> </div>
+                                </div>
+
+                                <div class="col l-6 m-6 c-12">
+                                    <p class="buy btn">Mua ngay</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
                 }
             </div>
 

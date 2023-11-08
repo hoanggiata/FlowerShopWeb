@@ -99,7 +99,7 @@ namespace AeFLOWER.Controllers
                 Utility utility = new Utility();
                 utility.CreateUser(user);
 
-                return RedirectToAction("Index",reg.returnUrl);
+                return RedirectToAction("Index",new { reg.returnUrl });
             }
             return View();
         }

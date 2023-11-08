@@ -33,4 +33,17 @@ public partial class CartItem
         List<CartItem> list_cartItem = db.CartItems.Where(x=>x.IdShoppingCart == id_ShoppingCart).ToList();
         return list_cartItem;
     }
+
+    public static string RemoveItem(string productID,string userID)
+    {
+        FlowershopContext db = new FlowershopContext();
+        var shoppingCart = db.ShoppingCarts.Where(x => x.IdUser == userID && x.OrderShipped == 0).FirstOrDefault();
+        var cartItem = db.CartItems.FirstOrDefault(x => x.IdShoppingCart == shoppingCart.IdCart && x.IdProduct == productID);
+        if (cartItem != null)
+        {
+            db.CartItems.Remove(cartItem); db.SaveChanges();
+            return "Thanh Cong";
+        }
+        else return "That bai";
+    }
 }
