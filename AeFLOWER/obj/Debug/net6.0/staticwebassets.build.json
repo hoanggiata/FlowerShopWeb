@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5zU2RuInWwzIQPFj8+R5HFeZ0RgYv/OJcxiEqjJieeQ=",
+  "Hash": "VfTIZO3W7fM2MY1EQ1TSfiOOPMzcVHKLM8fhkCWBmZA=",
   "Source": "AeFLOWER",
   "BasePath": "_content/AeFLOWER",
   "Mode": "Default",
@@ -1613,23 +1613,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\app.js"
-    },
-    {
-      "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\Cart.js",
-      "SourceId": "AeFLOWER",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\",
-      "BasePath": "_content/AeFLOWER",
-      "RelativePath": "js/Cart.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\Cart.js"
     },
     {
       "Identity": "C:\\Users\\hoang\\Desktop\\TaiLieuWeb\\FlowerShop\\AeFLOWER\\wwwroot\\js\\comments.js",

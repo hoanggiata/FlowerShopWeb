@@ -56,7 +56,7 @@ namespace AeFLOWER.Controllers
                 else
                 {
                     ViewBag.Error = "<div class='error'>Sai tên tài khoản hoặc mật khẩu</div>";
-                    return View(user);
+                    return View(loginModel);
                 }
             }
             return View(loginModel);
@@ -84,13 +84,13 @@ namespace AeFLOWER.Controllers
                 if (checkUserExsist)
                 {
                     ViewBag.UserNameMessage = "<div class='error'>Đã có tài khoản này trong hệ thống, vui lòng tạo tài khoản khác</div>";
-                    return View();
+                    return View(reg);
                 }
                 bool checkEmailExsist = db.Accounts.Any(x => x.Email == reg.Email);
                 if (checkEmailExsist)
                 {
                     ViewBag.EmailMessage = "<div class='error'>Email này đã được sử dụng, vui lòng nhập email khác </div>";
-                    return View();
+                    return View(reg);
                 }
                 Account user = new Account();
                 user.Username = reg.UserName;
@@ -101,7 +101,7 @@ namespace AeFLOWER.Controllers
 
                 return RedirectToAction("Index",new { reg.returnUrl });
             }
-            return View();
+            return View(reg);
         }
 
         public IActionResult ForgotPassword()

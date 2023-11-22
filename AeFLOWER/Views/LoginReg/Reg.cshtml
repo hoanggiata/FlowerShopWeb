@@ -37,6 +37,8 @@
             <div class="form-content">
                 <div class="signup-form">
                     <div class="title">Signup</div>
+                    <p>@Html.Raw(ViewBag.UserNameMessage)</p>
+                    <p>@Html.Raw(ViewBag.EmailMessage)</p>
                     <form action="/LoginReg/Reg" method="post">
                         <div class="input-boxes">
                             <div class="input-box">
@@ -44,8 +46,7 @@
                                 <i class="fas fa-user"></i>
                                 <input type="text" name="username" asp-for="UserName" placeholder="Enter your username" required>
                                 <span asp-validation-for="UserName" class="text-danger "></span>
-                                <br />
-                                <p class="text-danger ">@Html.Raw(@ViewBag.UserNameMessage)</p>
+                                <br />    
                             </div>
                             <div class="input-box">
                                 <i class="fas fa-lock"></i>
@@ -62,12 +63,11 @@
                                 <input type="email" name="email" asp-for="Email" placeholder="Enter your email" required>
                                 <span asp-validation-for="Email" class="text-danger "></span>
                                 <br />
-                                <p class="text-danger">@Html.Raw(@ViewBag.EmailMessage)</p>
                             </div>
                             <div class="button input-box">
                                 <input type="submit" value="Sumbit">
                             </div>
-                            <div class="text sign-up-text">Already have an account? <a href="@Url.Action("Index","LoginReg")">Login now</a></div>
+                            <div class="text sign-up-text">Already have an account? <a href="@Url.Action("Index","LoginReg",new{returnUrl = Model.returnUrl})">Login now</a></div>
                         </div>
                     </form>
                 </div>

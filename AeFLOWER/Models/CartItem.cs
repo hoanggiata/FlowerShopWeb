@@ -46,4 +46,18 @@ public partial class CartItem
         }
         else return "That bai";
     }
+
+    public static int UpdateQuantity(string productID, int quantity,string userID)
+    {
+        FlowershopContext db = new FlowershopContext();
+        var shoppingCart = db.ShoppingCarts.Where(x => x.IdUser == userID && x.OrderShipped == 0).FirstOrDefault();
+        var cartItem = db.CartItems.FirstOrDefault(x=> x.IdShoppingCart == shoppingCart.IdCart && x.IdProduct == productID);
+        if (cartItem != null)
+        {
+            cartItem.QuantityItem += quantity;
+            db.CartItems.Update(cartItem); db.SaveChanges();
+            return cartItem.QuantityItem;
+        }
+        else return 0;
+    }
 }

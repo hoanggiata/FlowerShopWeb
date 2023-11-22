@@ -3,12 +3,14 @@ using BookStoreWeb.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.Extensions.FileProviders;
 using Newtonsoft.Json;
 using System.Dynamic;
 using System.Net;
 using System.Security.Claims;
 using X.PagedList;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace AeFLOWER.Controllers
 {
@@ -134,11 +136,12 @@ namespace AeFLOWER.Controllers
         }
 
         //Non-login user them item vao cart
+        [HttpPost]
         public IActionResult AddToCartNonLogin(string productID, int quantity)
         {
             var checkProductExs = db.Products.Where(x => x.IdProduct == productID).FirstOrDefault();
             if (checkProductExs == null)
-                return NoContent();
+                return Json("That bai");
 
             var cart = GetCartItemsNonLogin();
             var cartItem = cart.Find(x => x.IdProduct == productID);
@@ -156,14 +159,16 @@ namespace AeFLOWER.Controllers
                 else cart.Add(new CartItem() { QuantityItem = quantity, IdProduct = productID, IdCartItem = 1 });
             }
             SaveCartSession(cart);
-            return NoContent();
+            return Json("Thanh Cong");
         }
 
 
         //Login user Them item vao cart 
+        [HttpPost]
         public IActionResult AddToCart(string productID,int quantity)
         {
             var product = db.Products.Find(productID);
+            if (product == null) return Json("That bai");
             ShoppingCart shoppingCart = db.ShoppingCarts.Where(x => x.IdUser == GetUserID() && x.OrderShipped == 0).FirstOrDefault();
             if(shoppingCart == null)
             {
@@ -181,7 +186,7 @@ namespace AeFLOWER.Controllers
                 item.QuantityItem = quantity;
                 db.CartItems.Add(item);
                 db.SaveChanges();
-                return NoContent();
+                return Json("Thanh Cong");
             }
 
             List<CartItem> list_CartItem = CartItem.GetAllCartItemByIdSC(shoppingCart.IdCart);
@@ -192,7 +197,7 @@ namespace AeFLOWER.Controllers
                     item.QuantityItem++;
                     db.CartItems.Update(item);
                     db.SaveChanges();
-                    return NoContent();
+                    return Json("Thanh Cong");
                 }
             }
 
@@ -203,7 +208,7 @@ namespace AeFLOWER.Controllers
             addItem.IdShoppingCart = shoppingCart.IdCart;
             db.CartItems.Add(addItem);
             db.SaveChanges();
-            return NoContent();
+            return Json("Thanh Cong");
            
 
             /*  */
@@ -219,22 +224,41 @@ namespace AeFLOWER.Controllers
         {
             return RedirectToAction("Index");
         }
-        //Cart cho Login User
+
+        //Cart
         public IActionResult Cart(int flag)
         {
             if (flag == 1)
             {
                 ShoppingCart shoppingCart = db.ShoppingCarts.Where(x => x.IdUser == GetUserID() && x.OrderShipped == 0).FirstOrDefault();
                 List<Product> list_product = Product.GetAllProduct();
+                List<CartItem> list_cartItem = CartItem.GetAllCartItemByIdSC(shoppingCart.IdCart);
 
-                var query = from c_item in CartItem.GetAllCartItemByIdSC(shoppingCart.IdCart) //Left Data Source
+                var query = from c_item in list_cartItem  //Left Data Source
                             join product in list_product //Right Data Source
                             on c_item.IdProduct equals product.IdProduct //Inner Join Condition
                             into CartItemFromUserGroup //Performing LINQ Group Join
                             from product in CartItemFromUserGroup.DefaultIfEmpty() //Performing Left Outer Join
                             select new { c_item, product };
 
+                //Update price with quantity
+                foreach (var item in query)
+                {
+                    int quantity = item.c_item.QuantityItem;
+                    foreach(Product product in list_product)
+                    {
+                        if (product.IdProduct == item.product.IdProduct)
+                        {
+                            string[] word = new string[2];
+                            word = product.Newcash.Split(' ');
+                            string cleanAmount = word[0].Replace(".", string.Empty);
+                            item.product.Newcash = (Convert.ToInt32(cleanAmount) * quantity).ToString("N0") + " VND";
+                        }                   
+                    }                
+                }
+
                 ViewBag.Query = query;
+                ViewBag.Count = list_cartItem.Count();
                 ViewBag.Flag = flag;
                 return View();
             }
@@ -248,7 +272,24 @@ namespace AeFLOWER.Controllers
                             from product in CartItemFromUserGroup.DefaultIfEmpty() //Performing Left Outer Join
                             select new { c_item, product };
 
+                //Update price with quantity
+                foreach (var item in query)
+                {
+                    int quantity = item.c_item.QuantityItem;
+                    foreach (Product product in list_product)
+                    {
+                        if (product.IdProduct == item.product.IdProduct)
+                        {
+                            string[] word = new string[2];
+                            word = product.Newcash.Split(' ');
+                            string cleanAmount = word[0].Replace(".", string.Empty);
+                            item.product.Newcash = (Convert.ToInt32(cleanAmount) * quantity).ToString("N0") + " VND";
+                        }
+                    }
+                }
+
                 ViewBag.Query = query;
+                ViewBag.Count = GetCartItemsNonLogin().Count();
                 ViewBag.Flag = flag;
                 return View();
             }
@@ -277,6 +318,103 @@ namespace AeFLOWER.Controllers
                 return Json("Thanh Cong");
             }
             return Json("That bai");
+        }
+
+        [HttpPost]
+        public IActionResult UpdateQuantity(string productID, int quantity, int flag)
+        {
+            if (flag == 1)
+            {
+                int result = CartItem.UpdateQuantity(productID, quantity,GetUserID());
+                if (result == 0)
+                    return Json("That bai");
+                else
+                    return Json(result);
+            }
+            var cart = GetCartItemsNonLogin();
+            var cartItem = cart.Find(x => x.IdProduct == productID);
+            if(cartItem !=null)
+            {
+                cartItem.QuantityItem += quantity;
+                SaveCartSession(cart);
+                return Json(cartItem.QuantityItem);
+            }
+            return Json("That bai");
+        }
+
+        [HttpPost]
+        public IActionResult GetTotalPrice(int flag)
+        {
+            float totalPrice = 0;
+            List<Product> list_product = Product.GetAllProduct();
+            if (flag == 1)
+            {
+                
+                ShoppingCart shoppingCart = db.ShoppingCarts.Where(x => x.IdUser == GetUserID() && x.OrderShipped == 0).FirstOrDefault();
+               
+                List<CartItem> list_cartItem = CartItem.GetAllCartItemByIdSC(shoppingCart.IdCart);
+                //return 0 if there is no cart item
+                if (list_cartItem == null) return Json(totalPrice);
+
+                var query = from c_item in list_cartItem  //Left Data Source
+                            join product in list_product //Right Data Source
+                            on c_item.IdProduct equals product.IdProduct //Inner Join Condition
+                            into CartItemFromUserGroup //Performing LINQ Group Join
+                            from product in CartItemFromUserGroup.DefaultIfEmpty() //Performing Left Outer Join
+                            select new { c_item, product };
+                //Update price with quantity
+                foreach (var item in query)
+                {
+                    int quantity = item.c_item.QuantityItem;
+                    foreach (Product product in list_product)
+                    {
+                        if (product.IdProduct == item.product.IdProduct)
+                        {
+                            string[] word = new string[2];
+                            word = product.Newcash.Split(' ');
+                            string cleanAmount = word[0].Replace(".", string.Empty);
+                            totalPrice += (Convert.ToInt32(cleanAmount) * quantity);
+                        }
+                    }
+                }
+                return Json(totalPrice);
+            }
+            List<CartItem> list_cartItemNonLogin = GetCartItemsNonLogin();
+
+            if (list_cartItemNonLogin == null) return Json(totalPrice);
+
+            var query2 = from c_item in list_cartItemNonLogin //Left Data Source
+                         join product in list_product //Right Data Source
+                        on c_item.IdProduct equals product.IdProduct //Inner Join Condition
+                        into CartItemFromUserGroup //Performing LINQ Group Join
+                        from product in CartItemFromUserGroup.DefaultIfEmpty() //Performing Left Outer Join
+                        select new { c_item, product };
+            //Update price with quantity
+            foreach (var item in query2)
+            {
+                int quantity = item.c_item.QuantityItem;
+                foreach (Product product in list_product)
+                {
+                    if (product.IdProduct == item.product.IdProduct)
+                    {
+                        string[] word = new string[2];
+                        word = product.Newcash.Split(' ');
+                        string cleanAmount = word[0].Replace(".", string.Empty);
+                        totalPrice += (Convert.ToInt32(cleanAmount) * quantity);
+                    }
+                }
+            }
+            return Json(totalPrice);
+        }
+
+        [HttpPost]
+        public IActionResult GetPriceProduct(string productID)
+        {
+            Product product = db.Products.Where(x=> x.IdProduct == productID).FirstOrDefault();
+            string[] word = new string[2];
+            word = product.Newcash.Split(' ');
+            string cleanAmount = word[0].Replace(".", string.Empty);
+            return Json(cleanAmount);
         }
     }
 }

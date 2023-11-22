@@ -2,7 +2,6 @@
 @{
     Layout = null;
   
-    <script src="@Url.Content("~/js/Cart.js")"></script>
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -20,44 +19,45 @@
                 <div class="row">
                     <div class="col"><h4><b>Shopping Cart</b></h4></div>
                     @{
-                        if (ViewBag.List_Item == null)
+                        if (ViewBag.Count == null)
                         {
-                                                <div class="col align-self-center text-right text-muted">0 items</div>
+                            <div class="col align-self-center text-right text-muted" id="static-count">0 item</div>
                         }
                         else
                         {
-                                                <div class="col align-self-center text-right text-muted">@ViewBag.List_Item.Count items</div>
+                                <div class="col align-self-center text-right text-muted" id="static-count">@ViewBag.Count items</div>
                         }
                     }
 
                 </div>
             </div>
+            <input type="hidden" value="@ViewBag.Flag" class="input-hidden" id="user_flag">
             @{
                 foreach (var item in ViewBag.Query)
                 {
-                                        <div class="row border-top get-product" id="@item.c_item.IdProduct">
-                                            <div class="row main align-items-center" style="margin-left:-15px !important;">
-                                                <div class="col-2"><img class="img-fluid" src="@item.product.Imageurl"></div>
-                                                <div class="col">
-                                                    @*  <div class="row text-muted">@item.Cate</div> *@
-                                                    <div class="row">@item.product.NameProduct</div>
-                                                    <input type="hidden" value="@item.product.Newcash" class="input-hidden" id="@item.c_item.IdProduct">
-                                                    @*<input type="hidden" value="@item.IdCart" class="post-item"> *@
-                                                </div>
-                                                <div class="col">
-                                                    <a href="#" id="quantity-minus" onclick="UpdateQuantity('-1','@item.c_item.IdProduct')">-</a><a href="#" class="border quantity-item" id="quantity-@item.c_item.IdProduct">@item.c_item.QuantityItem</a><a href="#" onclick="UpdateQuantity('1','@item.c_item.IdProduct')">+</a>
-                                                </div>
-                                                <div class="col"><span id="@item.c_item.IdProduct">@item.product.Newcash</span><span class="close @item.c_item.IdProduct" onclick="RemoveItem(this,'@item.c_item.IdProduct','@ViewBag.Flag')">&#10005;</span></div>
-                                            </div>
-                                        </div>
-
+                        <div class="row border-top get-product" id="@item.c_item.IdProduct">
+                            <div class="row main align-items-center" style="margin-left:-15px !important;">
+                                <div class="col-2"><img class="img-fluid" src="@item.product.Imageurl"></div>
+                                <div class="col">
+                                    @*  <div class="row text-muted">@item.Cate</div> *@
+                                    <div class="row">@item.product.NameProduct</div>
+                                    <input type="hidden" value="@item.product.Newcash" class="input-hidden" id="@item.c_item.IdProduct">                              
+                                    @*<input type="hidden" value="@item.IdCart" class="post-item"> *@
+                                </div>
+                                <div class="col">
+                                    <input type="hidden" value="@item.c_item.QuantityItem" class="input-hidden product-quantity">
+                                    <a href="#" id="quantity-minus" onclick="UpdateQuantity('-1','@item.c_item.IdProduct','@ViewBag.Flag');">-</a><a href="#" class="border quantity-item" id="quantity-@item.c_item.IdProduct">@item.c_item.QuantityItem</a><a href="#" onclick="UpdateQuantity('1','@item.c_item.IdProduct','@ViewBag.Flag');">+</a>
+                                </div>
+                                <div class="col"><span class="price-product" id="@item.c_item.IdProduct-price">@item.product.Newcash</span><span class="close @item.c_item.IdProduct" style="cursor:pointer;" onclick="RemoveItem(this,'@item.c_item.IdProduct','@ViewBag.Flag')">&#10005;</span></div>
+                            </div>
+                        </div>
                 }
             }
 
             <div class="back-to-shop"><a href="@Url.Action("Index","Home")" style="text-decoration:none;">&leftarrow;</a><a class="text-muted" href="@Url.Action("Index","Home")" style="text-decoration:none;">Back to shop</a></div>
         </div>
         <!--Panel 1-->
-        <div class="col-md-4 summary" style="display:none">
+        <div class="col-md-4 summary">
             <div><h5><b>Summary</b></h5></div>
             <hr>
             <div class="row">
@@ -70,7 +70,7 @@
             </form>
             <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
                 <div class="col">TOTAL PRICE</div>
-                <div class="col text-right" id="total-price">&euro; 0</div>
+                <div class="col text-right" id="total-price-checkout">&euro; 0</div>
             </div>
             <button class="btn trigger-btn" data-toggle="modal" onclick="CheckOut()" href="#myModal">CHECKOUT</button>
             <!-- Modal HTML -->
@@ -95,7 +95,7 @@
         </div>
 
          <!--Panel 2-->
-        <div class="col-md-4 summary" style="padding: 0;">
+        <div class="col-md-4 summary" style="padding: 0; display:none;">
             <div class="payment-info">
                 <div class="d-flex justify-content-between align-items-center"><span>Card details</span></div><span class="type d-block mt-3 mb-1">Card type</span><label class="radio"> <input type="radio" name="card" value="payment" checked> <span><img width="30" src="https://img.icons8.com/color/48/000000/mastercard.png" /></span> </label>
 
@@ -121,35 +121,116 @@
 </div>
 
 <script type="text/javascript">
-    function PostRemoveItem(abc,flag)
-    {
+
+    //format number thousands
+    function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+    function checkQuantity() {
+        var collection = document.getElementsByClassName("quantity-item");
+        console.log(collection[0].innerHTML);
+        for (var i = 0; i < collection.length; ++i) {
+            if (parseFloat(collection[i].innerHTML) == 1) {
+                var pre = collection[i].previousSibling;
+                pre.style.visibility = 'hidden';
+            }
+            else {
+                var pre = collection[i].previousSibling;
+                pre.style.visibility = 'visible';
+            }
+        }
+    }
+
+    function GetTotalPrice()
+    {   
+        var Flag_user = document.getElementById("user_flag").value;
+        $.ajax({
+            type: "POST",
+            url: "/Product/GetTotalPrice",
+            data: { flag: Flag_user },
+            success: function (data) {
+                var temp = numberWithCommas(data);
+                console.log(temp);
+                document.getElementById("total-price-checkout").innerHTML = temp + " VND";
+                checkQuantity();
+                if (parseFloat(temp) == 0) {
+                    document.getElementById("static-count").innerHTML = "0 item";
+                }
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    }
+    function PostRemoveItem(abc, flag) {
         $.ajax({
             type: "POST",
             url: "/Product/RemoveItem",
             data: { productID: abc, Flag: flag },
             success: function (data) {
-                alert(data);
+                GetTotalPrice();
+                checkQuantity();
             },
             error: function (err) {
                 alert("That Bai");
             }
         });
+        
     }
 
-    function RemoveItem(obj,abc,flag)
-    {
+    function RemoveItem(obj, abc, flag) {
         let item = document.getElementById(abc);
         console.log(flag);
 
         //Remove item from front-end
-        PostRemoveItem(abc,flag)
+        PostRemoveItem(abc, flag)
 
         while (item.hasChildNodes())
             item.removeChild(item.firstChild);
 
         item.remove();
+    }
+
+    function UpdateQuantity(abc, obj, Flag) {
+
+        $.ajax({
+            type: "POST",
+            url: "/Product/UpdateQuantity",
+            data: { productID: obj, quantity: abc, flag: Flag },
+            success: function (data) {
+                console.log(data);
+                document.getElementById("quantity-".concat(obj)).innerHTML = data;
+                UpdatePrice(obj,data);
+                checkQuantity();
+                GetTotalPrice();
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });    
+    }
+
+    function UpdatePrice(obj,quantity) {
+        $.ajax({
+            type: "POST",
+            url: "/Product/GetPriceProduct",
+            data: { productID: obj },
+            success: function (data) {
+                var temp = parseFloat(data) * quantity;
+                var price = numberWithCommas(temp);
+                var id_element = obj+"-price";
+                document.getElementById(id_element).innerHTML = price +" VND";
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    }
+
+    function CheckOut() { 
 
     }
-       
-       
+
+    window.onload = checkQuantity;
+    window.onload = GetTotalPrice;
 </script>

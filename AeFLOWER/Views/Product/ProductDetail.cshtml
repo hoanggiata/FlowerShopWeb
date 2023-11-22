@@ -115,7 +115,7 @@
                         <div class="info-footer">
                             <div class="row">
                                 <div class="col l-6 m-6 c-12">
-                                    <div class="buttons"><a href="@Url.ActionLink("AddToCart","Product",new{productID = Model.IdProduct,quantity = 1})" class="cart-button"><span class="add-to-cart">Add to cart</span><span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i class="fa fa-square"></i> </a> </div>
+                                    <div class="buttons"><a href="#" onclick="AddItemToCart('@Model.IdProduct')" class="cart-button"><span class="add-to-cart">Add to cart</span><span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i class="fa fa-square"></i> </a> </div>
                                 </div>
 
                                 <div class="col l-6 m-6 c-12">
@@ -129,7 +129,7 @@
                         <div class="info-footer">
                             <div class="row">
                                 <div class="col l-6 m-6 c-12">
-                                    <div class="buttons"><a href="@Url.ActionLink("AddToCartNonLogin","Product",new{productID = Model.IdProduct,quantity = 1})" class="cart-button"><span class="add-to-cart">Add to cart</span><span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i class="fa fa-square"></i> </a> </div>
+                                    <div class="buttons"><a href="#" onclick="AddItemToCartNonLogin('@Model.IdProduct')" class="cart-button"><span class="add-to-cart">Add to cart</span><span class="added">Item added</span> <i class="fa fa-shopping-cart"></i> <i class="fa fa-square"></i> </a> </div>
                                 </div>
 
                                 <div class="col l-6 m-6 c-12">
@@ -322,3 +322,39 @@
 <script src="~/js/app.js"></script>
 <script src="~/js/slider.js"></script>
 <script src="~/js/Add_ItemToCart.js"></script>
+
+<script type="text/javascript">
+
+    function AddItemToCart(obj)
+    {
+        var temp = document.getElementById("input-quantity").value;
+        var quantity = parseInt(temp);
+        $.ajax({
+            type: "POST",
+            url: "/Product/AddToCart",
+            data: { productID: obj, quantity: quantity },
+            success: function (data) {
+                console.log(data);
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    }
+
+    function AddItemToCartNonLogin(obj) {
+        var temp = document.getElementById("input-quantity").value;
+        var quantity = parseInt(temp);
+        $.ajax({
+            type: "POST",
+            url: "/Product/AddToCartNonLogin",
+            data: { productID: obj, quantity: quantity },
+            success: function (data) {
+                console.log(data);
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    }
+</script>
